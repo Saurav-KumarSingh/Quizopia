@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:quizopia/views/screens/login.dart';
 import 'package:quizopia/views/screens/signup.dart';
 
 
@@ -18,7 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Future.delayed(const Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const SignupScreen()),
+        MaterialPageRoute(builder: (context) => const LoginScreen()),
       );
     });
   }
