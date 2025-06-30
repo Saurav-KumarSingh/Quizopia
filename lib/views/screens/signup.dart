@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:quizopia/views/widgets/uihelper.dart';
 
 class SignupScreen extends StatelessWidget {
   const SignupScreen({super.key});
@@ -102,33 +103,23 @@ class SignupScreen extends StatelessWidget {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                             children: [
-                              _buildSocialButton(FontAwesomeIcons.facebookF, Colors.blue),
-                              _buildSocialButton(FontAwesomeIcons.google, Colors.red),
-                              _buildSocialButton(FontAwesomeIcons.xTwitter, Colors.black),
+                              UiHelper.socialButton(FontAwesomeIcons.facebookF, Colors.blue),
+                              UiHelper.socialButton(FontAwesomeIcons.google, Colors.red),
+                              UiHelper.socialButton(FontAwesomeIcons.xTwitter, Colors.black),
                             ],
                           ),
                         ],
                       ),
                     ),
                   ),
+                  UiHelper.customButton(
+                    text: "Sign up",
+                    onPressed: () {
+                      print("Sign up button pressed");
+                    },
+                  )
 
-                  SizedBox(
-                    height: 50,
-                    child: ElevatedButton(
-                      onPressed: () {},
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.deepPurple[800],
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                      ),
-                      child: const Text(
-                        "Sign up",
-                        style: TextStyle(fontSize: 18, color: Colors.white),
-                      ),
-                    ),
-                  ),
-                ],
+      ],
               ),
 
             ),
@@ -139,23 +130,5 @@ class SignupScreen extends StatelessWidget {
     );
   }
 
-  Widget _buildSocialButton(IconData icon, Color color) {
-    return Container(
-      height: 55,
-      width: 55,
-      padding: const EdgeInsets.all(10),
-      decoration: BoxDecoration(
-        shape: BoxShape.circle,
-        color: Colors.grey[100],
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black12,
-            blurRadius: 6,
-            offset: Offset(0, 3),
-          )
-        ],
-      ),
-      child: Center(child: FaIcon(icon, color: color)),
-    );
-  }
+
 }
