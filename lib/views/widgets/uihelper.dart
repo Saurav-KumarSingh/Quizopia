@@ -111,4 +111,109 @@ class UiHelper {
       ),
     );
   }
+
+  static Widget custom_podiumUser(String rank, String name, String points, String imagePath, {bool isFirst = false}) {
+    return Column(
+      children: [
+        Container(
+          padding: const EdgeInsets.all(8),
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(18),
+            border: Border.all(color: Colors.grey.shade300),
+            color: isFirst ? Colors.white : Colors.grey.shade100,
+          ),
+          child: Column(
+            children: [
+              CircleAvatar(
+                backgroundImage: AssetImage(imagePath),
+                radius: 34,
+              ),
+              const SizedBox(height: 8),
+              Text(name, style: const TextStyle(fontWeight: FontWeight.bold)),
+              Text("$points points", style: const TextStyle(fontSize: 12, color: Colors.black54)),
+            ],
+          ),
+        ),
+        const SizedBox(height: 4),
+        Text(rank, style: TextStyle(fontWeight: FontWeight.bold, color: Colors.deepPurple)),
+      ],
+    );
+  }
+
+  static Widget customrankedUser(
+      String rank,
+      String name,
+      String points, {
+        bool isCurrentUser = false,
+      }) {
+    return Container(
+      margin: const EdgeInsets.symmetric(vertical: 6, horizontal: 4),
+      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+      decoration: BoxDecoration(
+        color: isCurrentUser ? Colors.deepPurple.shade50 : Colors.white,
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(
+          color: isCurrentUser ? Colors.deepPurple : Colors.grey.shade300,
+          width: isCurrentUser ? 2 : 1,
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.025),
+            blurRadius: 6,
+            offset: const Offset(0, 3),
+          ),
+        ],
+      ),
+      child: Row(
+        children: [
+          Text(
+            rank,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 17,
+              color: isCurrentUser ? Colors.deepPurple : Colors.black87,
+            ),
+          ),
+          const SizedBox(width: 14),
+
+          // Avatar
+          const CircleAvatar(
+            radius: 22,
+            backgroundColor: Colors.deepPurple,
+            child: Icon(Icons.person, color: Colors.white, size: 20),
+          ),
+          const SizedBox(width: 14),
+
+          // Name
+          Expanded(
+            child: Text(
+              name,
+              overflow: TextOverflow.ellipsis,
+              style: TextStyle(
+                fontWeight: FontWeight.w600,
+                fontSize: 16,
+                color: isCurrentUser ? Colors.deepPurple : Colors.black87,
+              ),
+            ),
+          ),
+
+          // Points
+          Row(
+            children: [
+              const Icon(Icons.star_rounded, color: Colors.amber, size: 20),
+              const SizedBox(width: 4),
+              Text(
+                "$points pts",
+                style: const TextStyle(
+                  fontWeight: FontWeight.w600,
+                  fontSize: 14,
+                ),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+
 }

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:quizopia/views/screens/bottom_nav.dart';
-import 'package:quizopia/views/screens/home.dart';
 
 
 class SplashScreen extends StatefulWidget {

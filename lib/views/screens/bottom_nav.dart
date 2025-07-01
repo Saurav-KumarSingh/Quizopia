@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:quizopia/views/screens/category_screen.dart';
 import 'package:quizopia/views/screens/home.dart';
+import 'package:quizopia/views/screens/leaderboard_screen.dart';
+import 'package:quizopia/views/screens/profile_screen.dart';
 
 class BottomNavScreen extends StatefulWidget {
   const BottomNavScreen({super.key});
@@ -13,9 +16,9 @@ class _BottomNavScreenState extends State<BottomNavScreen> {
 
   final List<Widget> pages = [
     HomeScreen(),
-    Center(child: Text('Cart')),
-    Center(child: Text('Category')),
-    Center(child: Text('Print')),
+    CategoriesScreen(),
+    LeaderboardScreen(),
+    ProfileScreen()
   ];
 
   @override
@@ -46,7 +49,7 @@ class _BottomNavScreenState extends State<BottomNavScreen> {
             label: '',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.dashboard),
+            icon: Icon(Icons.list_sharp,),
             label: '',
           ),
           BottomNavigationBarItem(
