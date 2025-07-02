@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "878086794573",
+    "project_id": "flutter-test-5d47d",
+    "storage_bucket": "flutter-test-5d47d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878086794573:android:c6b795215353e963405b04",
+        "android_client_info": {
+          "package_name": "com.example.quizopia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBCdzGQgtgKX6Dn2kWSatd3RqLbjQyrJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878086794573:android:b156402a81db96b3405b04",
+        "android_client_info": {
+          "package_name": "com.example.test_quiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBCdzGQgtgKX6Dn2kWSatd3RqLbjQyrJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
