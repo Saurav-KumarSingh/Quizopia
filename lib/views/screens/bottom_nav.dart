@@ -3,6 +3,7 @@ import 'package:quizopia/views/screens/category_screen.dart';
 import 'package:quizopia/views/screens/home.dart';
 import 'package:quizopia/views/screens/leaderboard_screen.dart';
 import 'package:quizopia/views/screens/profile_screen.dart';
+import 'package:quizopia/views/screens/question_screen.dart';
 
 class BottomNavScreen extends StatefulWidget {
   const BottomNavScreen({super.key});
@@ -18,7 +19,8 @@ class _BottomNavScreenState extends State<BottomNavScreen> {
     HomeScreen(),
     CategoriesScreen(),
     LeaderboardScreen(),
-    ProfileScreen()
+    // ProfileScreen()
+    QuestionScreen()
   ];
 
   @override
