@@ -1,20 +1,27 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:quizopia/models/quiz_model.dart';
+import 'package:quizopia/providers/quiz_provider.dart';
+import 'package:quizopia/views/screens/question_screen.dart';
 import 'package:quizopia/views/widgets/uihelper.dart';
 
 class CategoriesScreen extends StatelessWidget {
   const CategoriesScreen({super.key});
 
-  final List<Map<String, String>> categories = const [
-    {'title': 'Sports', 'image': 'assets/images/sports.png'},
-    {'title': 'Animal', 'image': 'assets/images/animal.png'},
-    {'title': 'Technology', 'image': 'assets/images/tech.png'},
-    {'title': 'Science', 'image': 'assets/images/science.png'},
-    {'title': 'Entertainment', 'image': 'assets/images/entertainment.png'},
-    {'title': 'Music', 'image': 'assets/images/music.png'},
-  ];
+  void _navigateToQuiz(BuildContext context, QuizModel quiz) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (_) => QuestionScreen(quizData: quiz),
+      ),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
+    final quizProvider = Provider.of<QuizProvider>(context);
+    final quizzes = quizProvider.quizzes;
+
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
@@ -30,30 +37,29 @@ class CategoriesScreen extends StatelessWidget {
           ),
         ),
       ),
-
       body: SafeArea(
-        child: Column(
-          children: [
-            // Grid of categories
-            Expanded(
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
-                child: GridView.builder(
-                  itemCount: categories.length,
-                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2,
-                    mainAxisSpacing: 20,
-                    crossAxisSpacing: 20,
-                    childAspectRatio: 1,
-                  ),
-                  itemBuilder: (context, index) {
-                    final category = categories[index];
-                    return UiHelper.categoryCard(category['title']!, category['image']!);
-                  },
-                ),
-              ),
+        child: quizzes.isEmpty
+            ? const Center(child: CircularProgressIndicator())
+            : Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16),
+          child: GridView.builder(
+            itemCount: quizzes.length,
+            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 2,
+              mainAxisSpacing: 20,
+              crossAxisSpacing: 20,
+              childAspectRatio: 1,
             ),
-          ],
+            itemBuilder: (context, index) {
+              final quiz = quizzes[index];
+
+              return UiHelper.categoryCard(
+                quiz.title,
+                "assets/images/${quiz.id}.png",
+                    () => _navigateToQuiz(context, quiz),
+              );
+            },
+          ),
         ),
       ),
     );

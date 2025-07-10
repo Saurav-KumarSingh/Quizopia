@@ -1,7 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:quizopia/views/screens/bottom_nav.dart';
 import 'package:quizopia/views/screens/signup.dart';
+
+import '../../providers/quiz_provider.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -25,7 +28,13 @@ class _SplashScreenState extends State<SplashScreen> {
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(
-        builder: (context) => user == null ? const SignupScreen() : const BottomNavScreen(),
+        builder: (context) { // Use curly braces for a block body
+          // Call your provider method here
+          Provider.of<QuizProvider>(context, listen: false).loadAllQuizzes();
+
+          // Return the appropriate widget based on 'user'
+          return user == null ? const SignupScreen() : const BottomNavScreen();
+        },
       ),
     );
   }

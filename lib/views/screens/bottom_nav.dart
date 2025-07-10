@@ -19,8 +19,7 @@ class _BottomNavScreenState extends State<BottomNavScreen> {
     HomeScreen(),
     CategoriesScreen(),
     LeaderboardScreen(),
-    // ProfileScreen()
-    QuestionScreen()
+    ProfileScreen()
   ];
 
   @override

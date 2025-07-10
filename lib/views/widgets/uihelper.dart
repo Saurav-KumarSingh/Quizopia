@@ -92,25 +92,38 @@ class UiHelper {
     );
   }
 
-  static Widget categoryCard(String title, String assetPath) {
-    return Container(
-      decoration: BoxDecoration(
-        border: Border.all(color: Colors.black12),
-        borderRadius: BorderRadius.circular(16),
-      ),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Image.asset(assetPath, height: 60),
-          const SizedBox(height: 10),
-          Text(
-            title,
-            style: const TextStyle(fontWeight: FontWeight.bold),
-          ),
-        ],
+  static Widget categoryCard(String title, String assetPath, VoidCallback onTap) {
+    final safeAssetPath = (assetPath.isNotEmpty) ? assetPath : 'assets/images/tech.png';
+
+    return GestureDetector(
+      onTap: onTap,
+      child: Container(
+        decoration: BoxDecoration(
+          border: Border.all(color: Colors.black12),
+          borderRadius: BorderRadius.circular(16),
+        ),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset(
+              safeAssetPath,
+              height: 60,
+              errorBuilder: (context, error, stackTrace) {
+                return const Icon(Icons.broken_image, size: 60, color: Colors.redAccent);
+              },
+            ),
+            const SizedBox(height: 10),
+            Text(
+              title,
+              style: const TextStyle(fontWeight: FontWeight.bold),
+            ),
+          ],
+        ),
       ),
     );
   }
+
+
 
   static Widget custom_podiumUser(String rank, String name, String points, String imagePath, {bool isFirst = false}) {
     return Column(

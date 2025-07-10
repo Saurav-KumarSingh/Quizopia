@@ -1,6 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:quizopia/models/quiz_model.dart';
+import 'package:quizopia/providers/quiz_provider.dart';
+import 'package:quizopia/views/screens/question_screen.dart';
 import 'package:quizopia/views/widgets/uihelper.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -12,7 +16,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   String? userName;
-  final Color primaryPurple = const Color(0xFF2D1E73);
+
   final Color lightPurple = const Color(0xFFEAE6FB);
 
   @override
@@ -33,8 +37,20 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
+  void navigateToQuiz(BuildContext context, QuizModel quiz) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (_) => QuestionScreen(quizData: quiz),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
+    final quizProvider = Provider.of<QuizProvider>(context);
+    final quizzes = quizProvider.quizzes;
+
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
@@ -57,57 +73,53 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               const SizedBox(height: 20),
 
-              const Text(
-                "Quiz of the week",
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
-              ),
+              const Text("Quiz of the week", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
               const SizedBox(height: 10),
 
-              Container(
-                padding: const EdgeInsets.all(16),
-                decoration: BoxDecoration(
-                  color: lightPurple,
-                  borderRadius: BorderRadius.circular(16),
-                ),
-                child: Row(
-                  children: [
-                    Expanded(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          const Text(
-                            "Design tools",
-                            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                          ),
-                          const SizedBox(height: 5),
-                          const Text("1,997 players worldwide",
-                              style: TextStyle(color: Colors.black54)),
-                          const SizedBox(height: 10),
-                          ElevatedButton(
-                            onPressed: () {},
-                            style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.blue[400],
-                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+              if (quizzes.isNotEmpty)
+                Container(
+                  padding: const EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    color: lightPurple,
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  child: Row(
+                    children: [
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              quizzes[0].title,
+                              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                             ),
-                            child: const Text("Play now!", style: TextStyle(color: Colors.white)),
-                          ),
-                        ],
+                            const SizedBox(height: 5),
+                            const Text("1688 players worldwide", style: TextStyle(color: Colors.black54)),
+                            const SizedBox(height: 10),
+                            ElevatedButton(
+                              onPressed: () => navigateToQuiz(context, quizzes[0]),
+                              style: ElevatedButton.styleFrom(
+                                backgroundColor: Colors.blue[400],
+                                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+                              ),
+                              child: const Text("Play now!", style: TextStyle(color: Colors.white)),
+                            ),
+                          ],
+                        ),
                       ),
-                    ),
-                    const SizedBox(width: 10),
-                    Image.asset(
-                      "assets/images/bulb.png",
-                      height: 100,
-                      width: 100,
-                    ),
-                  ],
+                      const SizedBox(width: 10),
+                      Image.asset(
+                        "assets/images/bulb.png",
+                        height: 100,
+                        width: 100,
+                        errorBuilder: (_, __, ___) => const Icon(Icons.image),
+                      ),
+                    ],
+                  ),
                 ),
-              ),
+
               const SizedBox(height: 25),
-              const Text(
-                "Categories",
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
-              ),
+              const Text("Categories", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
               const SizedBox(height: 10),
 
               GridView.count(
@@ -116,14 +128,14 @@ class _HomeScreenState extends State<HomeScreen> {
                 crossAxisSpacing: 12,
                 mainAxisSpacing: 12,
                 physics: const NeverScrollableScrollPhysics(),
-                children: [
-                  UiHelper.categoryCard("Music", "assets/images/music.png"),
-                  UiHelper.categoryCard("Sports", "assets/images/sports.png"),
-                  UiHelper.categoryCard("Technology", "assets/images/tech.png"),
-                  UiHelper.categoryCard("Science", "assets/images/science.png"),
-                  UiHelper.categoryCard("Science", "assets/images/bulb.png"),
-                ],
-              )
+                children: quizzes.map((quiz) {
+                  return UiHelper.categoryCard(
+                    quiz.title,
+                    "assets/images/${quiz.id}.png",
+                        () => navigateToQuiz(context, quiz),
+                  );
+                }).toList(),
+              ),
             ],
           ),
         ),
