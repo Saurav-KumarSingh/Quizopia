@@ -1,19 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:quizopia/providers/user_provider.dart';
+import 'package:quizopia/models/user_model.dart';
 
 class ProfileScreen extends StatelessWidget {
-  final Map<String, dynamic> profileData = {
-    "name": "Elvie Winlose",
-    "username": "@Rookie123",
-    "avatar": "assets/you.png",
-    "rank": "#99",
-    "gamesPlayed": "250",
-    "points": "1,084",
-    "completionRate": "82%",
-    "correctAnswers": "62%",
-    "incorrectAnswers": "38%",
-  };
-
-  ProfileScreen({super.key});
+  const ProfileScreen({super.key});
 
   Widget statBox(String title, String value, IconData icon, Color color) {
     return Container(
@@ -47,9 +38,16 @@ class ProfileScreen extends StatelessWidget {
     );
   }
 
-
   @override
   Widget build(BuildContext context) {
+    final userModel = Provider.of<UserProvider>(context).user;
+
+    if (userModel == null) {
+      return const Scaffold(
+        body: Center(child: CircularProgressIndicator()),
+      );
+    }
+
     return Scaffold(
       backgroundColor: const Color(0xFFF7F7FF),
       body: Column(
@@ -59,22 +57,31 @@ class ProfileScreen extends StatelessWidget {
             width: double.infinity,
             decoration: const BoxDecoration(
               color: Color(0xFF1E0E62),
-              borderRadius: BorderRadius.only(bottomLeft: Radius.circular(50), bottomRight: Radius.circular(50)),
+              borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(50),
+                bottomRight: Radius.circular(50),
+              ),
             ),
             child: SafeArea(
               child: Column(
                 children: [
                   CircleAvatar(
                     radius: 45,
-                    backgroundImage: AssetImage(profileData["avatar"]),
+                    backgroundImage: userModel.profileImage.isNotEmpty
+                        ? NetworkImage(userModel.profileImage)
+                        : const AssetImage("assets/you.png") as ImageProvider,
                   ),
                   const SizedBox(height: 10),
                   Text(
-                    profileData["name"],
-                    style: const TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
+                    userModel.name,
+                    style: const TextStyle(
+                      color: Colors.white,
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                   Text(
-                    profileData["username"],
+                    userModel.email,
                     style: const TextStyle(color: Colors.white70),
                   ),
                 ],
@@ -91,19 +98,28 @@ class ProfileScreen extends StatelessWidget {
               crossAxisSpacing: 10,
               physics: const NeverScrollableScrollPhysics(),
               children: [
-                statBox("World rank", profileData["rank"], Icons.emoji_events, Colors.deepOrange),
-                statBox("Games played", profileData["gamesPlayed"], Icons.videogame_asset, Colors.amber),
-                statBox("Points total", profileData["points"], Icons.bolt, Colors.deepPurple),
-                statBox("Completion rate", profileData["completionRate"], Icons.check_circle, Colors.deepPurple),
-                statBox("Correct answers", profileData["correctAnswers"], Icons.verified, Colors.amber),
-                statBox("Incorrect answers", profileData["incorrectAnswers"], Icons.cancel, Colors.grey),
+                statBox("Total Score", userModel.totalScore.toString(), Icons.bolt, Colors.deepPurple),
+                statBox("Attempted", userModel.totalAttempted.toString(), Icons.videogame_asset, Colors.amber),
+                statBox("Correct", userModel.correctAnswers.toString(), Icons.verified, Colors.green),
+                statBox("Incorrect", userModel.incorrectAnswers.toString(), Icons.cancel, Colors.red),
+                statBox("Completion Rate", _calculateCompletionRate(userModel), Icons.percent, Colors.teal),
+                statBox("Accuracy", _calculateAccuracy(userModel), Icons.bar_chart, Colors.blueGrey),
               ],
             ),
           ),
-
           const SizedBox(height: 24),
         ],
       ),
     );
+  }
+
+  String _calculateCompletionRate(UserModel user) {
+    if (user.totalAttempted == 0) return "0%";
+    return "${((user.correctAnswers + user.incorrectAnswers) / user.totalAttempted * 100).round()}%";
+  }
+
+  String _calculateAccuracy(UserModel user) {
+    if (user.totalAttempted == 0) return "0%";
+    return "${(user.correctAnswers / user.totalAttempted * 100).round()}%";
   }
 }

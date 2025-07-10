@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:provider/provider.dart';
 import 'package:quizopia/providers/quiz_provider.dart';
-import 'package:quizopia/views/screens/signup.dart';
 // import 'package:quizopia/services/quiz_seeder.dart';
 import 'package:quizopia/views/screens/splash_screen.dart';
 
@@ -32,7 +31,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Quizopia',
-      home: const SignupScreen(),
+      home: const SplashScreen(),
     );
   }
 }
