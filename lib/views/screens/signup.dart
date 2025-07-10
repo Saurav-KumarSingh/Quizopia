@@ -2,9 +2,12 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:provider/provider.dart';
 import 'package:quizopia/views/screens/bottom_nav.dart';
 import 'package:quizopia/views/screens/login.dart';
 import 'package:quizopia/views/widgets/uihelper.dart';
+
+import '../../providers/quiz_provider.dart';
 
 class SignupScreen extends StatefulWidget {
   const SignupScreen({super.key});
@@ -56,7 +59,13 @@ class _SignupScreenState extends State<SignupScreen> {
 
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const BottomNavScreen()),
+        MaterialPageRoute(
+          builder: (context) {
+            // Load quiz data before navigation
+            Provider.of<QuizProvider>(context, listen: false).loadAllQuizzes();
+            return const BottomNavScreen();
+          },
+        ),
       );
     } on FirebaseAuthException catch (e) {
       String message = "Signup failed";

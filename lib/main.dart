@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:provider/provider.dart';
+import 'package:quizopia/providers/quiz_provider.dart';
 // import 'package:quizopia/services/quiz_seeder.dart';
 import 'package:quizopia/views/screens/splash_screen.dart';
 
@@ -7,7 +9,16 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   // await seedQuizData();
-  runApp(const MyApp());
+  void main() {
+    runApp(
+      MultiProvider(
+        providers: [
+          ChangeNotifierProvider(create: (_) => QuizProvider()),
+        ],
+        child: const MyApp(),
+      ),
+    );
+  }
 }
 
 class MyApp extends StatelessWidget {

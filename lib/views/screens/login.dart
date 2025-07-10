@@ -1,9 +1,12 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:provider/provider.dart';
 import 'package:quizopia/views/screens/bottom_nav.dart';
 import 'package:quizopia/views/screens/signup.dart';
 import 'package:quizopia/views/widgets/uihelper.dart';
+
+import '../../providers/quiz_provider.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -30,7 +33,13 @@ class _LoginScreenState extends State<LoginScreen> {
           email: email, password: password);
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (_) => const BottomNavScreen()),
+        MaterialPageRoute(
+          builder: (context) {
+            // Load quiz data before navigation
+            Provider.of<QuizProvider>(context, listen: false).loadAllQuizzes();
+            return const BottomNavScreen();
+          },
+        ),
       );
     } catch (e) {
       UiHelper.showSnackbar(context, "Login Failed");
