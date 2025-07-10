@@ -1,23 +1,50 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:quizopia/views/widgets/uihelper.dart';
 
-class HomeScreen extends StatelessWidget {
-  final Color primaryPurple = Color(0xFF2D1E73);
-  final Color lightPurple = Color(0xFFEAE6FB);
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  String? userName;
+  final Color primaryPurple = const Color(0xFF2D1E73);
+  final Color lightPurple = const Color(0xFFEAE6FB);
+
+  @override
+  void initState() {
+    super.initState();
+    fetchUserName();
+  }
+
+  Future<void> fetchUserName() async {
+    final user = FirebaseAuth.instance.currentUser;
+    if (user != null) {
+      final doc = await FirebaseFirestore.instance.collection('users').doc(user.uid).get();
+      if (doc.exists) {
+        setState(() {
+          userName = doc.data()?['name'] ?? "Player";
+        });
+      }
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 18.0, vertical: 10),
           child: ListView(
             children: [
-              const Text(
-                "Welcome back, Saurav",
-                style: TextStyle(fontSize: 16, color: Colors.black87),
+              Text(
+                "Welcome back, ${userName ?? "Loading..."}",
+                style: const TextStyle(fontSize: 16, color: Colors.black87),
               ),
               const SizedBox(height: 5),
               const Text(
@@ -30,48 +57,12 @@ class HomeScreen extends StatelessWidget {
               ),
               const SizedBox(height: 20),
 
-              // Strike Card
-              // Container(
-              //   padding: const EdgeInsets.all(16),
-              //   decoration: BoxDecoration(
-              //     color: Color(0xFF2D1E73),
-              //     borderRadius: BorderRadius.circular(16),
-              //   ),
-              //   child: Column(
-              //     crossAxisAlignment: CrossAxisAlignment.start,
-              //     children: [
-              //       const Text(
-              //         "3 days strike!",
-              //         style: TextStyle(
-              //           color: Colors.white,
-              //           fontWeight: FontWeight.bold,
-              //           fontSize: 18,
-              //         ),
-              //       ),
-              //       const SizedBox(height: 5),
-              //       const Text(
-              //         "+10 daily points",
-              //         style: TextStyle(color: Colors.white70, fontSize: 14),
-              //       ),
-              //       const SizedBox(height: 10),
-              //       LinearProgressIndicator(
-              //         value: 0.6,
-              //         color: Colors.blue[200],
-              //         backgroundColor: Colors.white24,
-              //       ),
-              //     ],
-              //   ),
-              // ),
-
-              const SizedBox(height: 25),
-
               const Text(
                 "Quiz of the week",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
               ),
               const SizedBox(height: 10),
 
-              // Quiz Card
               Container(
                 padding: const EdgeInsets.all(16),
                 decoration: BoxDecoration(
@@ -86,8 +77,7 @@ class HomeScreen extends StatelessWidget {
                         children: [
                           const Text(
                             "Design tools",
-                            style: TextStyle(
-                                fontSize: 18, fontWeight: FontWeight.bold),
+                            style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                           ),
                           const SizedBox(height: 5),
                           const Text("1,997 players worldwide",
@@ -97,10 +87,9 @@ class HomeScreen extends StatelessWidget {
                             onPressed: () {},
                             style: ElevatedButton.styleFrom(
                               backgroundColor: Colors.blue[400],
-                              shape: RoundedRectangleBorder(
-                                  borderRadius: BorderRadius.circular(8)),
+                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
                             ),
-                            child: const Text("Play now!",style: TextStyle(color: Colors.white),),
+                            child: const Text("Play now!", style: TextStyle(color: Colors.white)),
                           ),
                         ],
                       ),
@@ -114,16 +103,13 @@ class HomeScreen extends StatelessWidget {
                   ],
                 ),
               ),
-
               const SizedBox(height: 25),
-
               const Text(
                 "Categories",
                 style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
               ),
               const SizedBox(height: 10),
 
-              // Categories Grid
               GridView.count(
                 crossAxisCount: 2,
                 shrinkWrap: true,
@@ -136,7 +122,6 @@ class HomeScreen extends StatelessWidget {
                   UiHelper.categoryCard("Technology", "assets/images/tech.png"),
                   UiHelper.categoryCard("Science", "assets/images/science.png"),
                   UiHelper.categoryCard("Science", "assets/images/bulb.png"),
-
                 ],
               )
             ],
@@ -145,6 +130,4 @@ class HomeScreen extends StatelessWidget {
       ),
     );
   }
-
-
 }

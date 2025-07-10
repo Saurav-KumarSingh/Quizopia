@@ -1,6 +1,7 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:quizopia/views/screens/bottom_nav.dart';
-
+import 'package:quizopia/views/screens/signup.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -13,14 +14,20 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
+    _navigateAfterDelay();
+  }
 
-    // Delay of 3 seconds then navigate
-    Future.delayed(const Duration(seconds: 3), () {
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(builder: (context) =>  BottomNavScreen()),
-      );
-    });
+  void _navigateAfterDelay() async {
+    await Future.delayed(const Duration(seconds: 3));
+
+    User? user = FirebaseAuth.instance.currentUser;
+
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(
+        builder: (context) => user == null ? const SignupScreen() : const BottomNavScreen(),
+      ),
+    );
   }
 
   @override
@@ -42,7 +49,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 ),
               ),
               const SizedBox(height: 7),
-              Text(
+              const Text(
                 "Where smart minds come to play, learn, and conquer.",
                 textAlign: TextAlign.center,
                 style: TextStyle(
@@ -63,13 +70,16 @@ class _SplashScreenState extends State<SplashScreen> {
                       color: Colors.deepPurple.withOpacity(0.3),
                       blurRadius: 50,
                       spreadRadius: 5,
-                      offset: Offset(0, 0),
+                      offset: const Offset(0, 0),
                     ),
                   ],
                 ),
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(50),
-                  child: Image.asset('assets/images/logoq.webp', fit: BoxFit.cover),
+                  child: Image.asset(
+                    'assets/images/logoq.webp',
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ),
             ],
