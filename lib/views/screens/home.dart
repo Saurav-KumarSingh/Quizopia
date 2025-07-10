@@ -1,9 +1,8 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:quizopia/models/quiz_model.dart';
 import 'package:quizopia/providers/quiz_provider.dart';
+import 'package:quizopia/providers/user_provider.dart';
 import 'package:quizopia/views/screens/question_screen.dart';
 import 'package:quizopia/views/widgets/uihelper.dart';
 
@@ -15,28 +14,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  String? userName;
-
-  final Color lightPurple = const Color(0xFFEAE6FB);
-
-  @override
-  void initState() {
-    super.initState();
-    fetchUserName();
-  }
-
-  Future<void> fetchUserName() async {
-    final user = FirebaseAuth.instance.currentUser;
-    if (user != null) {
-      final doc = await FirebaseFirestore.instance.collection('users').doc(user.uid).get();
-      if (doc.exists) {
-        setState(() {
-          userName = doc.data()?['name'] ?? "Player";
-        });
-      }
-    }
-  }
-
   void navigateToQuiz(BuildContext context, QuizModel quiz) {
     Navigator.push(
       context,
@@ -49,7 +26,10 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     final quizProvider = Provider.of<QuizProvider>(context);
+    final userProvider = Provider.of<UserProvider>(context);
+
     final quizzes = quizProvider.quizzes;
+    final userName = userProvider.user?.name ?? "Player";
 
     return Scaffold(
       backgroundColor: Colors.white,
@@ -59,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
           child: ListView(
             children: [
               Text(
-                "Welcome back, ${userName ?? "Loading..."}",
+                "Welcome back, $userName",
                 style: const TextStyle(fontSize: 16, color: Colors.black87),
               ),
               const SizedBox(height: 5),
@@ -73,14 +53,17 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               const SizedBox(height: 20),
 
-              const Text("Quiz of the week", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+              const Text(
+                "Quiz of the week",
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
               const SizedBox(height: 10),
 
               if (quizzes.isNotEmpty)
                 Container(
                   padding: const EdgeInsets.all(16),
                   decoration: BoxDecoration(
-                    color: lightPurple,
+                    color: const Color(0xFFEAE6FB),
                     borderRadius: BorderRadius.circular(16),
                   ),
                   child: Row(
@@ -128,7 +111,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 crossAxisSpacing: 12,
                 mainAxisSpacing: 12,
                 physics: const NeverScrollableScrollPhysics(),
-                children: quizzes.map((quiz) {
+                children: quizzes.take(6).map((quiz) {
                   return UiHelper.categoryCard(
                     quiz.title,
                     "assets/images/${quiz.id}.png",

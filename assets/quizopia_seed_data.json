@@ -1,5014 +1,2097 @@
 {
    "Sports": [
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which country won the FIFA World Cup in 2022? ",
-      "options": [
-        "France",
-        "Argentina",
-        "Brazil",
-        "Germany"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who holds the record for the most Olympic gold medals? ",
-      "options": [
-        "Usain Bolt",
-        "Michael Phelps",
-        "Simone Biles",
-        "Carl Lewis"
-      ],
-      "correctAnswerIndex": 1
-    }
-  ],
+     {
+       "question": "Who holds the record for the most Olympic gold medals? ",
+       "options": [
+         "Usain Bolt",
+         "Michael Phelps",
+         "Simone Biles",
+         "Carl Lewis"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "Which country won the FIFA World Cup in 2022? ",
+       "options": [
+         "France",
+         "Argentina",
+         "Brazil",
+         "Germany"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "Which sport is known as the 'King of Sports'? ",
+       "options": [
+         "Basketball",
+         "Cricket",
+         "Football (Soccer)",
+         "Tennis"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "In which sport would you perform a 'slam dunk'? ",
+       "options": [
+         "Tennis",
+         "Basketball",
+         "Volleyball",
+         "Badminton"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "How many players are on a standard soccer (football) team? ",
+       "options": [
+         "9",
+         "10",
+         "11",
+         "12"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "Which athlete is famous for the 'Fosbury Flop' technique in high jump? ",
+       "options": [
+         "Carl Lewis",
+         "Jesse Owens",
+         "Dick Fosbury",
+         "Usain Bolt"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "The 'Tour de France' is a famous competition in which sport? ",
+       "options": [
+         "Running",
+         "Cycling",
+         "Swimming",
+         "Rowing"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "Which country is the birthplace of the sport of golf? ",
+       "options": [
+         "England",
+         "Scotland",
+         "Ireland",
+         "United States"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "What is the maximum number of points a single dart can score in a standard dartboard? ",
+       "options": [
+         "50",
+         "60",
+         "100",
+         "180"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "Which country has won the most Cricket World Cups? ",
+       "options": [
+         "India",
+         "England",
+         "Australia",
+         "West Indies"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "In which martial art would you find a 'kimono'? ",
+       "options": [
+         "Karate",
+         "Judo",
+         "Taekwondo",
+         "Kung Fu"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "What is the term for a perfect score in bowling? ",
+       "options": [
+         "Strike",
+         "Spare",
+         "Turkey",
+         "300"
+       ],
+       "correctAnswerIndex": 3
+     },
+     {
+       "question": "Which city hosted the 2016 Summer Olympics? ",
+       "options": [
+         "London",
+         "Rio de Janeiro",
+         "Tokyo",
+         "Beijing"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "How many bases are there in a baseball field? ",
+       "options": [
+         "3",
+         "4",
+         "5",
+         "6"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "What is the governing body of international football (soccer)? ",
+       "options": [
+         "IOC",
+         "FIFA",
+         "UEFA",
+         "CAF"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "Which swimming stroke is done on your back? ",
+       "options": [
+         "Freestyle",
+         "Breaststroke",
+         "Backstroke",
+         "Butterfly"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "In which sport would you use a 'shuttlecock'? ",
+       "options": [
+         "Tennis",
+         "Badminton",
+         "Squash",
+         "Table Tennis"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "What is the national sport of Japan? ",
+       "options": [
+         "Judo",
+         "Karate",
+         "Sumo Wrestling",
+         "Kendo"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "Which country is famous for its 'Haka' pre-match dance in rugby? ",
+       "options": [
+         "Australia",
+         "South Africa",
+         "New Zealand",
+         "Fiji"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "What color is the center of a target in archery? ",
+       "options": [
+         "Red",
+         "Blue",
+         "Gold",
+         "Black"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "Which of these is not a traditional fencing weapon? ",
+       "options": [
+         "Foil",
+         "Epee",
+         "Sabre",
+         "Rapier"
+       ],
+       "correctAnswerIndex": 3
+     },
+     {
+       "question": "In horse racing, what is a 'filly'? ",
+       "options": [
+         "A male horse",
+         "A young female horse",
+         "A slow horse",
+         "A trained jockey"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "What is the maximum number of clubs a golfer is allowed to carry in their bag during a round? ",
+       "options": [
+         "10",
+         "12",
+         "14",
+         "16"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "Which continent has hosted the most Olympic Games? ",
+       "options": [
+         "Asia",
+         "Europe",
+         "North America",
+         "South America"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "In which sport would you aim for the 'bullseye'? ",
+       "options": [
+         "Bowling",
+         "Archery",
+         "Golf",
+         "Darts"
+       ],
+       "correctAnswerIndex": 3
+     },
+     {
+       "question": "What is the name of the international governing body for basketball? ",
+       "options": [
+         "NBA",
+         "FIBA",
+         "WNBA",
+         "NCAA"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "Which of these is not a type of swimming pool lane line? ",
+       "options": [
+         "Floating",
+         "Rigid",
+         "Wave-reducing",
+         "Diving"
+       ],
+       "correctAnswerIndex": 3
+     },
+     {
+       "question": "What is the traditional Japanese martial art that emphasizes throws and grappling? ",
+       "options": [
+         "Karate",
+         "Judo",
+         "Aikido",
+         "Kendo"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "How many rings are on the Olympic flag? ",
+       "options": [
+         "3",
+         "4",
+         "5",
+         "6"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "Which country introduced the martial art of Taekwondo? ",
+       "options": [
+         "China",
+         "Japan",
+         "South Korea",
+         "Thailand"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "In which sport can you score a 'try'? ",
+       "options": [
+         "Rugby",
+         "American Football",
+         "Soccer",
+         "Basketball"
+       ],
+       "correctAnswerIndex": 0
+     },
+     {
+       "question": "What is the term for a race in which competitors run, cycle, and swim? ",
+       "options": [
+         "Duathlon",
+         "Biathlon",
+         "Triathlon",
+         "Pentathlon"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "Which country is traditionally dominant in the sport of field hockey? ",
+       "options": [
+         "Germany",
+         "Australia",
+         "India",
+         "Netherlands"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "Which famous tennis tournament is played on clay courts? ",
+       "options": [
+         "Wimbledon",
+         "US Open",
+         "Australian Open",
+         "French Open"
+       ],
+       "correctAnswerIndex": 3
+     },
+     {
+       "question": "What is the maximum weight in pounds of a regulation bowling ball? ",
+       "options": [
+         "12",
+         "14",
+         "16",
+         "18"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "Which type of race car is known for its open cockpit and exposed wheels? ",
+       "options": [
+         "Stock car",
+         "Touring car",
+         "Formula 1 car",
+         "Rally car"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "In what sport do two teams compete to move a ball into the opposing team's goal using a stick? ",
+       "options": [
+         "Lacrosse",
+         "Field Hockey",
+         "Ice Hockey",
+         "All of the above"
+       ],
+       "correctAnswerIndex": 3
+     },
+     {
+       "question": "Which country has won the most gold medals in Olympic ice hockey? ",
+       "options": [
+         "Canada",
+         "USA",
+         "Russia",
+         "Sweden"
+       ],
+       "correctAnswerIndex": 0
+     },
+     {
+       "question": "What is the term for hitting a baseball out of the park for a score? ",
+       "options": [
+         "Strikeout",
+         "Walk",
+         "Home Run",
+         "Double"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "Which of these is not a type of wrestling? ",
+       "options": [
+         "Freestyle",
+         "Greco-Roman",
+         "Judo",
+         "Folkstyle"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "In which sport do athletes compete in events such as shot put, long jump, and javelin throw? ",
+       "options": [
+         "Gymnastics",
+         "Track and Field",
+         "Weightlifting",
+         "Swimming"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "What is the object that golfers hit into a hole? ",
+       "options": [
+         "Puck",
+         "Ball",
+         "Shuttlecock",
+         "Birdie"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "Which sport uses a 'foosball' table? ",
+       "options": [
+         "Table Tennis",
+         "Air Hockey",
+         "Table Football",
+         "Pool"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "How many players are on a water polo team in the water at one time? ",
+       "options": [
+         "5",
+         "6",
+         "7",
+         "8"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "In which sport would you hear the term 'love' for a score of zero? ",
+       "options": [
+         "Badminton",
+         "Tennis",
+         "Squash",
+         "Table Tennis"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "What is the name of the governing body for international athletics (track and field)? ",
+       "options": [
+         "NCAA",
+         "IAAF",
+         "IOC",
+         "WADA"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "Which of these is a type of gymnastics? ",
+       "options": [
+         "Rhythmic",
+         "Artistic",
+         "Trampoline",
+         "All of the above"
+       ],
+       "correctAnswerIndex": 3
+     },
+     {
+       "question": "What is the term for a shot in basketball that goes through the hoop without touching the rim or backboard? ",
+       "options": [
+         "Swish",
+         "Brick",
+         "Airball",
+         "Bank shot"
+       ],
+       "correctAnswerIndex": 0
+     },
+     {
+       "question": "Which country is famous for originating the sport of fencing? ",
+       "options": [
+         "Italy",
+         "France",
+         "Spain",
+         "Germany"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "What is the name of the large ball used in water polo? ",
+       "options": [
+         "Volley ball",
+         "Soccer ball",
+         "Water polo ball",
+         "Basketball"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "Which of these is a popular form of martial arts that focuses on striking with hands and feet? ",
+       "options": [
+         "Judo",
+         "Aikido",
+         "Taekwondo",
+         "Jujutsu"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "What is the term for a situation in cricket where a batsman is dismissed by the ball hitting their leg before the wicket? ",
+       "options": [
+         "Bowled",
+         "Caught",
+         "Leg Before Wicket (LBW)",
+         "Run Out"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "Which city is home to the famous 'Wembley Stadium'? ",
+       "options": [
+         "Manchester",
+         "London",
+         "Liverpool",
+         "Birmingham"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "In which sport is the 'Grand Slam' a major achievement, consisting of winning all four major tournaments in a calendar year? ",
+       "options": [
+         "Golf",
+         "Tennis",
+         "Badminton",
+         "Squash"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "What is the name of the position in soccer whose primary role is to prevent goals? ",
+       "options": [
+         "Striker",
+         "Midfielder",
+         "Defender",
+         "Goalkeeper"
+       ],
+       "correctAnswerIndex": 3
+     },
+     {
+       "question": "Which famous athlete is known as 'The Greatest' in boxing? ",
+       "options": [
+         "Mike Tyson",
+         "Muhammad Ali",
+         "Floyd Mayweather Jr.",
+         "Manny Pacquiao"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "What is the maximum number of players on a volleyball team on the court at one time? ",
+       "options": [
+         "4",
+         "5",
+         "6",
+         "7"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "Which of these is a type of competitive swimming pool stroke? ",
+       "options": [
+         "Dog paddle",
+         "Sidestroke",
+         "Freestyle",
+         "Survival stroke"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "In which sport do competitors use a 'foil', 'epee', or 'sabre'? ",
+       "options": [
+         "Archery",
+         "Fencing",
+         "Gymnastics",
+         "Wrestling"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "What is the term for a penalty shot in ice hockey? ",
+       "options": [
+         "Power play",
+         "Hat trick",
+         "Slap shot",
+         "Penalty shot"
+       ],
+       "correctAnswerIndex": 3
+     },
+     {
+       "question": "Which country is the origin of the sport of table tennis? ",
+       "options": [
+         "China",
+         "Japan",
+         "England",
+         "United States"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "What is the name of the individual race against the clock in cycling? ",
+       "options": [
+         "Road race",
+         "Criterium",
+         "Time trial",
+         "Sprint"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "Which of these is not a category of weightlifting? ",
+       "options": [
+         "Snatch",
+         "Clean and Jerk",
+         "Deadlift",
+         "Bench Press"
+       ],
+       "correctAnswerIndex": 3
+     },
+     {
+       "question": "In baseball, what is the term for a batter who gets four balls and is allowed to go to first base? ",
+       "options": [
+         "Strikeout",
+         "Hit by pitch",
+         "Walk",
+         "Error"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "Which sport uses a 'rink'? ",
+       "options": [
+         "Curling",
+         "Ice Hockey",
+         "Figure Skating",
+         "All of the above"
+       ],
+       "correctAnswerIndex": 3
+     },
+     {
+       "question": "What is the term for a score of one over par on a hole in golf? ",
+       "options": [
+         "Birdie",
+         "Bogey",
+         "Eagle",
+         "Albatross"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "Which country is traditionally dominant in the sport of basketball? ",
+       "options": [
+         "Spain",
+         "Argentina",
+         "United States",
+         "Serbia"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "What is the name of the competition where athletes compete in running, jumping, and throwing events? ",
+       "options": [
+         "Gymnastics",
+         "Track and field",
+         "Swimming",
+         "Weightlifting"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "Which of these is a type of racing done on ice? ",
+       "options": [
+         "Speed Skating",
+         "Figure Skating",
+         "Ice Dancing",
+         "Synchronized Skating"
+       ],
+       "correctAnswerIndex": 0
+     },
+     {
+       "question": "In soccer, what is the term for a player who scores three goals in a single game? ",
+       "options": [
+         "Brace",
+         "Hat-trick",
+         "Double",
+         "Super hat-trick"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "Which sport involves riding horses and jumping over obstacles? ",
+       "options": [
+         "Dressage",
+         "Show Jumping",
+         "Eventing",
+         "Polo"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "What is the name of the specialized shoe worn by runners? ",
+       "options": [
+         "Sneakers",
+         "Boots",
+         "Running shoes",
+         "Sandals"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "Which country is the birthplace of the martial art of Karate? ",
+       "options": [
+         "China",
+         "Japan",
+         "South Korea",
+         "Thailand"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "What is the term for a tennis shot hit with extreme topspin? ",
+       "options": [
+         "Slice",
+         "Volley",
+         "Topspin",
+         "Drop shot"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "In which sport do players use cues to hit balls on a table? ",
+       "options": [
+         "Table Tennis",
+         "Billiards",
+         "Shuffleboard",
+         "Curling"
+       ],
+       "correctAnswerIndex": 1
+     },
+     {
+       "question": "Which famous marathon is run in Boston, USA? ",
+       "options": [
+         "New York City Marathon",
+         "Chicago Marathon",
+         "Boston Marathon",
+         "London Marathon"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "What is the name of the board used in skateboarding? ",
+       "options": [
+         "Surfboard",
+         "Snowboard",
+         "Skateboard",
+         "Longboard"
+       ],
+       "correctAnswerIndex": 2
+     },
+     {
+       "question": "Which sport is played with a stick and a puck on ice? ",
+       "options": [
+         "Field Hockey",
+         "Roller Hockey",
+         "Ice Hockey",
+         "Lacrosse"
+       ],
+       "correctAnswerIndex": 2
+     }
+   ],
   "Animals": [
     {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
+      "question": "Which animal is known as the King of the Jungle?",
+      "options": ["Tiger", "Elephant", "Lion", "Cheetah"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "What is the fastest land animal?",
+      "options": ["Lion", "Cheetah", "Horse", "Deer"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
+      "question": "Which mammal lays eggs?",
+      "options": ["Platypus", "Dolphin", "Bat", "Seal"],
+      "correctAnswerIndex": 0
     },
     {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "What is a baby kangaroo called?",
+      "options": ["Cub", "Joey", "Calf", "Kid"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
+      "question": "Which animal is famous for its black and white stripes?",
+      "options": ["Zebra", "Tiger", "Skunk", "Panda"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which bird is known for mimicking sounds and speech?",
+      "options": ["Parrot", "Sparrow", "Crow", "Peacock"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "What is the largest land animal?",
+      "options": ["Giraffe", "White Rhino", "African Elephant", "Hippopotamus"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
+      "question": "Which animal can sleep standing up?",
+      "options": ["Dog", "Cat", "Horse", "Pig"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
+      "question": "Which animal is known to have the longest neck?",
+      "options": ["Giraffe", "Camel", "Ostrich", "Elephant"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which animal is famous for playing dead when threatened?",
+      "options": ["Opossum", "Rabbit", "Raccoon", "Otter"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "What type of animal is a Komodo dragon?",
+      "options": ["Mammal", "Bird", "Reptile", "Amphibian"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
+      "question": "Which animal is known for its spots and long legs?",
+      "options": ["Cheetah", "Leopard", "Giraffe", "Jaguar"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
+      "question": "Which animal spends most of its life hanging upside down?",
+      "options": ["Monkey", "Bat", "Sloth", "Koala"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
+      "question": "Which marine animal is known for its eight arms?",
+      "options": ["Crab", "Jellyfish", "Octopus", "Squid"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "Which large animal has a horn on its nose?",
+      "options": ["Buffalo", "Rhino", "Elephant", "Yak"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "Which small black and white animal lives in China?",
+      "options": ["Skunk", "Penguin", "Panda", "Badger"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Which animal produces pearls?",
+      "options": ["Shrimp", "Oyster", "Clam", "Crab"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "Which animal changes color to blend into surroundings?",
+      "options": ["Frog", "Chameleon", "Snake", "Lizard"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "What do you call a group of lions?",
+      "options": ["Pack", "Pride", "Flock", "Swarm"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "Which animal carries its babies in a pouch?",
+      "options": ["Panda", "Kangaroo", "Chimpanzee", "Lemur"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "What animal is known for building dams?",
+      "options": ["Otter", "Beaver", "Mole", "Muskrat"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "Which animal is the tallest in the world?",
+      "options": ["Elephant", "Ostrich", "Giraffe", "Camel"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "What animal is known for its black mask and ringed tail?",
+      "options": ["Badger", "Raccoon", "Skunk", "Opossum"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "Which animal is the largest of the cat family?",
+      "options": ["Tiger", "Lion", "Leopard", "Jaguar"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which flightless bird lives in Antarctica?",
+      "options": ["Emu", "Penguin", "Ostrich", "Kiwi"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "What is the only mammal capable of true flight?",
+      "options": ["Flying squirrel", "Bat", "Parrot", "Sugar glider"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
+      "question": "Which animal has a powerful kick that can kill a lion?",
+      "options": ["Giraffe", "Zebra", "Buffalo", "Ostrich"],
+      "correctAnswerIndex": 0
     },
     {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
+      "question": "Which animal's milk is pink?",
+      "options": ["Hippo", "Rhino", "Seal", "Walrus"],
+      "correctAnswerIndex": 0
     },
     {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "Which marine animal has a hard shell and moves slowly?",
+      "options": ["Crab", "Sea turtle", "Octopus", "Seal"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "Which animal's group is called a troop?",
+      "options": ["Lions", "Elephants", "Monkeys", "Wolves"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Which animal can rotate its head almost all the way around?",
+      "options": ["Eagle", "Owl", "Hawk", "Falcon"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "Which large animal has tusks made of ivory?",
+      "options": ["Walrus", "Elephant", "Rhino", "Hippo"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
+      "question": "Which animal uses echolocation to navigate?",
+      "options": ["Cat", "Dog", "Bat", "Monkey"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "Which animal is famous for its slow movement?",
+      "options": ["Snail", "Sloth", "Turtle", "Frog"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "Which animal has black skin under its white fur?",
+      "options": ["Polar bear", "Panda", "Sheep", "Goat"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which animal can regenerate its lost limbs?",
+      "options": ["Frog", "Starfish", "Crab", "Lizard"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "What is a baby goat called?",
+      "options": ["Calf", "Kid", "Foal", "Cub"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
+      "question": "Which animal has the largest eyes in the animal kingdom?",
+      "options": ["Squid", "Whale", "Ostrich", "Shark"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which desert animal can survive for weeks without water?",
+      "options": ["Camel", "Donkey", "Goat", "Sheep"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "What is a group of wolves called?",
+      "options": ["Pack", "Pride", "Flock", "Swarm"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which animal can hold its breath the longest underwater?",
+      "options": ["Whale", "Seal", "Dolphin", "Sea turtle"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which animal is known as man's best friend?",
+      "options": ["Dog", "Cat", "Horse", "Cow"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which animal is famous for producing honey?",
+      "options": ["Butterfly", "Bee", "Ant", "Fly"],
       "correctAnswerIndex": 1
     },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which animal is known as the King of the Jungle? ",
-      "options": [
-        "Tiger",
-        "Elephant",
-        "Lion",
-        "Cheetah"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is the fastest land animal? ",
-      "options": [
-        "Lion",
-        "Cheetah",
-        "Horse",
-        "Deer"
-      ],
-      "correctAnswerIndex": 1
-    }
+      {
+        "question": "Which small insect can lift objects many times its own weight?",
+        "options": ["Bee", "Ant", "Fly", "Butterfly"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What is the largest species of shark?",
+        "options": ["Great White Shark", "Hammerhead Shark", "Whale Shark", "Tiger Shark"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Which animal is known for having a large horn on its snout?",
+        "options": ["Buffalo", "Rhino", "Yak", "Bison"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which bird cannot fly but can run very fast?",
+        "options": ["Penguin", "Ostrich", "Duck", "Chicken"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which animal is known to laugh when tickled?",
+        "options": ["Dog", "Hyena", "Dolphin", "Monkey"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which mammal spends most of its life in the ocean but breathes air?",
+        "options": ["Shark", "Whale", "Octopus", "Seal"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What animal is famous for rolling into a ball when threatened?",
+        "options": ["Turtle", "Hedgehog", "Snail", "Porcupine"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which animal has the longest lifespan?",
+        "options": ["Elephant", "Giant tortoise", "Blue whale", "Parrot"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What do you call a baby deer?",
+        "options": ["Calf", "Fawn", "Cub", "Foal"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which bird can rotate its head up to 270 degrees?",
+        "options": ["Eagle", "Owl", "Crow", "Parrot"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which sea creature has a crown of spiky arms?",
+        "options": ["Starfish", "Jellyfish", "Coral", "Sea anemone"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Which animal has the strongest bite force?",
+        "options": ["Tiger", "Grizzly bear", "Hippopotamus", "Crocodile"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "question": "What animal is known as the ship of the desert?",
+        "options": ["Donkey", "Camel", "Horse", "Elephant"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which animal can jump the highest relative to its size?",
+        "options": ["Flea", "Kangaroo", "Rabbit", "Grasshopper"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Which bird is the symbol of peace?",
+        "options": ["Crow", "Dove", "Eagle", "Swan"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which animal uses its long sticky tongue to catch insects?",
+        "options": ["Frog", "Parrot", "Horse", "Monkey"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "What is the largest living reptile?",
+        "options": ["Anaconda", "Komodo dragon", "Crocodile", "Alligator"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Which animal is known to have blue blood?",
+        "options": ["Octopus", "Crab", "Starfish", "Snail"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What animal is known to carry its house on its back?",
+        "options": ["Turtle", "Snail", "Hermit crab", "All of these"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "question": "Which animal can see behind itself without turning its head?",
+        "options": ["Horse", "Rabbit", "Chameleon", "Pigeon"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "question": "What is the smallest bird in the world?",
+        "options": ["Sparrow", "Hummingbird", "Finch", "Wren"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which mammal spends winter in hibernation?",
+        "options": ["Dog", "Bear", "Deer", "Lion"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What do you call a female deer?",
+        "options": ["Doe", "Cow", "Ewe", "Sow"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Which animal famously has a trunk?",
+        "options": ["Rhino", "Elephant", "Giraffe", "Hippo"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What animal produces the loudest sound in the animal kingdom?",
+        "options": ["Lion", "Elephant", "Blue whale", "Howler monkey"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "What do you call a group of fish?",
+        "options": ["Flock", "School", "Pack", "Troop"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which animal is known for building nests from sticks?",
+        "options": ["Owl", "Sparrow", "Eagle", "Duck"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Which amphibian is famous for its loud croaking sound?",
+        "options": ["Salamander", "Toad", "Newt", "Frog"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "question": "Which mammal has spines for protection?",
+        "options": ["Hedgehog", "Rabbit", "Mouse", "Rat"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "What animal lives both in water and on land?",
+        "options": ["Fish", "Amphibian", "Bird", "Reptile"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which animal is famous for swinging from trees?",
+        "options": ["Elephant", "Monkey", "Lion", "Horse"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which bird has the largest wingspan?",
+        "options": ["Eagle", "Albatross", "Condor", "Pelican"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which animal is known for having a pouch to carry its young?",
+        "options": ["Platypus", "Kangaroo", "Dolphin", "Panda"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What do you call a male chicken?",
+        "options": ["Hen", "Rooster", "Cockerel", "Drake"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which animal has no vocal cords?",
+        "options": ["Snake", "Dog", "Cat", "Monkey"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Which reptile is famous for shedding its skin?",
+        "options": ["Turtle", "Snake", "Lizard", "Crocodile"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which insect is known for its beautiful wings and metamorphosis?",
+        "options": ["Ant", "Bee", "Butterfly", "Beetle"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Which animal is known for its distinctive black and white face mask?",
+        "options": ["Panda", "Raccoon", "Badger", "Skunk"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What is a baby horse called?",
+        "options": ["Foal", "Calf", "Kid", "Cub"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Which bird is famous for its colorful tail feathers?",
+        "options": ["Peacock", "Parrot", "Duck", "Swan"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Which sea creature has tentacles and a round bell-shaped body?",
+        "options": ["Squid", "Jellyfish", "Octopus", "Shrimp"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What do you call a baby sheep?",
+        "options": ["Kid", "Calf", "Lamb", "Foal"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Which large cat has distinctive black spots and is found in Africa?",
+        "options": ["Leopard", "Cheetah", "Jaguar", "Panther"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which sea mammal is known for its playful nature and intelligence?",
+        "options": ["Seal", "Walrus", "Dolphin", "Whale"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Which animal is known as the tallest land animal?",
+        "options": ["Elephant", "Camel", "Giraffe", "Horse"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "What animal is famous for its slow and steady movement?",
+        "options": ["Sloth", "Snail", "Turtle", "All of these"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "question": "Which animal has tusks and is known to live in cold sea regions?",
+        "options": ["Whale", "Walrus", "Seal", "Dolphin"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which animal is known for spinning webs?",
+        "options": ["Ant", "Spider", "Bee", "Moth"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What is the largest land carnivore?",
+        "options": ["Lion", "Tiger", "Polar bear", "Grizzly bear"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Which animal has a large hump on its back to store fat?",
+        "options": ["Horse", "Donkey", "Camel", "Yak"],
+        "correctAnswerIndex": 2
+      }
+
   ],
   "Entertainment": [
     {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
+      "question": "Who played the character of Iron Man in the Marvel movies?",
+      "options": ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
+      "question": "Which animated movie features a snowman named Olaf?",
+      "options": ["Frozen", "Moana", "Tangled", "Coco"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which singer is known as the 'King of Pop'?",
+      "options": ["Elvis Presley", "Michael Jackson", "Justin Bieber", "Prince"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
+      "question": "What is the name of the toy cowboy in Toy Story?",
+      "options": ["Woody", "Buzz", "Jessie", "Bullseye"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which movie features the quote, 'May the Force be with you'?",
+      "options": ["Star Trek", "Star Wars", "Avatar", "The Matrix"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
+      "question": "Who is the famous wizard with a lightning bolt scar?",
+      "options": ["Frodo Baggins", "Gandalf", "Harry Potter", "Merlin"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
+      "question": "Which TV show is about six friends living in New York?",
+      "options": ["How I Met Your Mother", "The Big Bang Theory", "Friends", "Seinfeld"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
+      "question": "Which superhero can climb walls and shoot webs?",
+      "options": ["Batman", "Iron Man", "Spider-Man", "Hulk"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
+      "question": "Which movie series features a giant robot car called Bumblebee?",
+      "options": ["Transformers", "Fast & Furious", "Pacific Rim", "Iron Giant"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Who is Mickey Mouse's girlfriend?",
+      "options": ["Daisy Duck", "Minnie Mouse", "Clarabelle Cow", "Pluto"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
+      "question": "Which Disney movie is about a lion cub named Simba?",
+      "options": ["The Jungle Book", "The Lion King", "Bambi", "Tarzan"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Which movie features a fish named Nemo?",
+      "options": ["Shark Tale", "Finding Nemo", "The Little Mermaid", "Surf's Up"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Who sings the song 'Shape of You'?",
+      "options": ["Ed Sheeran", "Justin Bieber", "Shawn Mendes", "Harry Styles"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "In which movie did Leonardo DiCaprio say, 'I'm the king of the world!'?",
+      "options": ["Inception", "Titanic", "The Great Gatsby", "Shutter Island"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Which superhero is known as 'The Dark Knight'?",
+      "options": ["Superman", "Iron Man", "Batman", "Green Lantern"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
+      "question": "Which animated movie has a song called 'Let It Go'?",
+      "options": ["Moana", "Frozen", "Tangled", "Brave"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
+      "question": "Which actor played Jack Sparrow in Pirates of the Caribbean?",
+      "options": ["Brad Pitt", "Johnny Depp", "Leonardo DiCaprio", "Orlando Bloom"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
+      "question": "Which TV show features Sheldon Cooper?",
+      "options": ["Friends", "The Office", "The Big Bang Theory", "How I Met Your Mother"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
+      "question": "Which movie features blue aliens living on Pandora?",
+      "options": ["Star Wars", "Avatar", "Guardians of the Galaxy", "Valerian"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
+      "question": "Which famous magician is known for his escapes?",
+      "options": ["David Blaine", "Criss Angel", "Harry Houdini", "Dynamo"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
+      "question": "What is the name of Winnie the Pooh’s donkey friend?",
+      "options": ["Piglet", "Tigger", "Rabbit", "Eeyore"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "question": "Which superhero has an indestructible shield?",
+      "options": ["Hawkeye", "Captain America", "Thor", "Hulk"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "What is the name of the snow queen in Frozen?",
+      "options": ["Anna", "Elsa", "Rapunzel", "Belle"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Which band sang 'Hey Jude'?",
+      "options": ["The Beatles", "Queen", "The Rolling Stones", "ABBA"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which movie features toys that come to life when humans aren’t around?",
+      "options": ["Shrek", "Toy Story", "Cars", "Up"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "What color are Smurfs?",
+      "options": ["Green", "Red", "Blue", "Yellow"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
+      "question": "Who lives in a pineapple under the sea?",
+      "options": ["Patrick Star", "Squidward", "SpongeBob SquarePants", "Mr. Krabs"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
+      "question": "Which movie features a magical nanny named Mary?",
+      "options": ["Nanny McPhee", "Mary Poppins", "Matilda", "Annie"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Who is known for the song 'Bad Guy'?",
+      "options": ["Taylor Swift", "Billie Eilish", "Selena Gomez", "Ariana Grande"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Which superhero says 'Hulk smash!'?",
+      "options": ["Iron Man", "Spider-Man", "Hulk", "Thor"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
+      "question": "Who is the main character in the video game series 'The Legend of Zelda'?",
+      "options": ["Mario", "Zelda", "Link", "Luigi"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
+      "question": "Which movie has a character named Buzz Lightyear?",
+      "options": ["Finding Nemo", "Toy Story", "Cars", "Incredibles"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
+      "question": "Which singer is known as 'Queen Bey'?",
+      "options": ["Beyoncé", "Rihanna", "Lady Gaga", "Adele"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "What kind of animal is Garfield?",
+      "options": ["Dog", "Cat", "Rabbit", "Mouse"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "In which series do people fight zombies called 'walkers'?",
+      "options": ["Breaking Bad", "The Walking Dead", "Lost", "Prison Break"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Which wizarding school does Harry Potter attend?",
+      "options": ["Ilvermorny", "Hogwarts", "Beauxbatons", "Durmstrang"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "What color is the Genie in Aladdin?",
+      "options": ["Green", "Red", "Blue", "Yellow"],
       "correctAnswerIndex": 2
     },
     {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
+      "question": "Who played Wolverine in the X-Men movies?",
+      "options": ["Chris Evans", "Hugh Jackman", "Tom Hardy", "Henry Cavill"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
+      "question": "Which animated movie is about a rat who loves to cook?",
+      "options": ["Ratatouille", "The Aristocats", "Oliver & Company", "Bolt"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which superhero is also known as the Man of Steel?",
+      "options": ["Batman", "Superman", "Iron Man", "Hulk"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
+      "question": "Who played Captain Jack Sparrow?",
+      "options": ["Johnny Depp", "Brad Pitt", "Chris Pratt", "Will Smith"],
+      "correctAnswerIndex": 0
     },
     {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
+      "question": "Which TV series is set in the fictional land of Westeros?",
+      "options": ["The Witcher", "The Lord of the Rings", "Game of Thrones", "Vikings"],
       "correctAnswerIndex": 2
     },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which movie won the Best Picture Oscar in 2020? ",
-      "options": [
-        "1917",
-        "Joker",
-        "Parasite",
-        "Once Upon a Time in Hollywood"
-      ],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "Who played Iron Man in the Marvel movies? ",
-      "options": [
-        "Chris Evans",
-        "Robert Downey Jr.",
-        "Chris Hemsworth",
-        "Mark Ruffalo"
-      ],
-      "correctAnswerIndex": 1
-    }
+      {
+        "question": "Who is Shrek’s best friend?",
+        "options": ["Dragon", "Puss in Boots", "Donkey", "Fiona"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "What is the name of the cowboy in Toy Story?",
+        "options": ["Buzz", "Woody", "Jessie", "Rex"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which Disney princess has a pet tiger named Rajah?",
+        "options": ["Jasmine", "Belle", "Ariel", "Cinderella"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Who directed the movie 'Jurassic Park'?",
+        "options": ["James Cameron", "Steven Spielberg", "George Lucas", "Christopher Nolan"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What is the name of the kingdom where Frozen takes place?",
+        "options": ["Arendelle", "Narnia", "Wakanda", "Hogsmeade"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Which movie has the quote: 'To infinity and beyond'?",
+        "options": ["Monsters, Inc.", "Toy Story", "Cars", "Up"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What is the name of the clownfish in Finding Nemo?",
+        "options": ["Dory", "Marlin", "Nemo", "Gill"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Which pop star is known for hits like 'Roar' and 'Firework'?",
+        "options": ["Ariana Grande", "Katy Perry", "Selena Gomez", "Dua Lipa"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Who plays Thor in the Marvel movies?",
+        "options": ["Chris Evans", "Chris Hemsworth", "Tom Hiddleston", "Mark Ruffalo"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which singer was in the boy band *NSYNC?",
+        "options": ["Justin Timberlake", "Harry Styles", "Zayn Malik", "Nick Jonas"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "What is the name of Batman’s butler?",
+        "options": ["Arthur", "Alfred", "Albert", "Andrew"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which character is known for saying 'D'oh!'?",
+        "options": ["Bart Simpson", "Marge Simpson", "Homer Simpson", "Lisa Simpson"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Which magical creatures guard the bank Gringotts in Harry Potter?",
+        "options": ["Elves", "Goblins", "Dragons", "Trolls"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Who played the character Deadpool?",
+        "options": ["Chris Pratt", "Ryan Reynolds", "Hugh Jackman", "Tom Hardy"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "In which movie do toys go on an adventure to find their owner?",
+        "options": ["Toy Story 3", "Cars", "Ratatouille", "Monsters University"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Who is the princess in the movie Tangled?",
+        "options": ["Belle", "Ariel", "Rapunzel", "Elsa"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Which music group is known for 'Dancing Queen'?",
+        "options": ["Queen", "ABBA", "The Beatles", "Bee Gees"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which series follows the lives of the Stark family?",
+        "options": ["The Witcher", "Game of Thrones", "Vikings", "The Last Kingdom"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which wizard has a pet owl named Hedwig?",
+        "options": ["Ron Weasley", "Harry Potter", "Hermione Granger", "Draco Malfoy"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What is the name of the cowboy’s horse in Toy Story?",
+        "options": ["Bullseye", "Lightning", "Spirit", "Shadowfax"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Which movie is about emotions inside a girl's mind?",
+        "options": ["Soul", "Inside Out", "Coco", "Onward"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What is the real name of the superhero Spider-Man?",
+        "options": ["Peter Parker", "Clark Kent", "Bruce Wayne", "Tony Stark"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Which character is the sister of Elsa in Frozen?",
+        "options": ["Anna", "Belle", "Rapunzel", "Jasmine"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Which Disney movie features a magical carpet ride?",
+        "options": ["Mulan", "Hercules", "Aladdin", "Pocahontas"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "Which 1994 movie features talking lions?",
+        "options": ["Zootopia", "The Lion King", "Madagascar", "Kung Fu Panda"],
+        "correctAnswerIndex": 1
+      }
+
+
   ],
   "Music": [
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "Who is known as the 'King of Pop'?",
+      "options": ["Elvis Presley", "Michael Jackson", "Prince", "Justin Bieber"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "Which British band sang 'Hey Jude'?",
+      "options": ["Queen", "The Beatles", "Coldplay", "Oasis"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "What musical instrument has black and white keys?",
+      "options": ["Guitar", "Violin", "Piano", "Drums"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Which singer released the album '1989'?",
+      "options": ["Adele", "Taylor Swift", "Selena Gomez", "Rihanna"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "What do you call someone who writes music?",
+      "options": ["Painter", "Composer", "Author", "Director"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
+      "question": "Which instrument has six strings and is often played in rock music?",
+      "options": ["Violin", "Flute", "Guitar", "Cello"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Who sang 'Rolling in the Deep'?",
+      "options": ["Adele", "Katy Perry", "Beyoncé", "Lady Gaga"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "What genre is known for loud guitars and heavy drums?",
+      "options": ["Jazz", "Rock", "Classical", "Pop"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "Which female pop star is known for 'Bad Romance'?",
+      "options": ["Ariana Grande", "Lady Gaga", "Dua Lipa", "Selena Gomez"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "Who was the lead singer of Queen?",
+      "options": ["John Lennon", "Freddie Mercury", "Mick Jagger", "David Bowie"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "Which instrument is often called the 'king of instruments'?",
+      "options": ["Guitar", "Organ", "Violin", "Piano"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
+      "question": "What is the highest female singing voice?",
+      "options": ["Soprano", "Tenor", "Alto", "Bass"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "Which group sang 'Bohemian Rhapsody'?",
+      "options": ["Queen", "The Beatles", "Nirvana", "U2"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which singer is known for the song 'Shape of You'?",
+      "options": ["Ed Sheeran", "Shawn Mendes", "Harry Styles", "Justin Bieber"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "What musical symbol indicates silence?",
+      "options": ["Clef", "Note", "Rest", "Sharp"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Which artist had a hit with 'Uptown Funk'?",
+      "options": ["Bruno Mars", "Justin Timberlake", "Drake", "Kanye West"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which musical family does the flute belong to?",
+      "options": ["String", "Brass", "Woodwind", "Percussion"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Who is known for the moonwalk dance move?",
+      "options": ["Usher", "Michael Jackson", "Chris Brown", "Ne-Yo"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "What is the small guitar-like instrument from Hawaii called?",
+      "options": ["Banjo", "Ukulele", "Mandolin", "Sitar"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "Which pop star was in the group Destiny’s Child?",
+      "options": ["Rihanna", "Beyoncé", "Alicia Keys", "Nicki Minaj"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "Which American rapper is known for 'Stronger' and 'Gold Digger'?",
+      "options": ["Drake", "Kanye West", "Jay-Z", "Lil Wayne"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "Which genre often uses turntables and rapping?",
+      "options": ["Jazz", "Hip-Hop", "Classical", "Country"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
+      "question": "What is a group of three singers called?",
+      "options": ["Quartet", "Duet", "Trio", "Choir"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Who sang 'Poker Face'?",
+      "options": ["Lady Gaga", "Madonna", "Britney Spears", "Katy Perry"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "Which instrument uses pedals and strings and is large and triangular?",
+      "options": ["Harp", "Cello", "Piano", "Banjo"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Which boy band had hits like 'Bye Bye Bye'?",
+      "options": ["Backstreet Boys", "*NSYNC", "One Direction", "5 Seconds of Summer"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "Which pop star sang 'Baby' at age 16?",
+      "options": ["Shawn Mendes", "Justin Bieber", "Nick Jonas", "Harry Styles"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "Which classical composer became deaf later in life?",
+      "options": ["Mozart", "Beethoven", "Bach", "Chopin"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "What do you call written music?",
+      "options": ["Script", "Sheet music", "Novel", "Tab"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
+      "question": "Which artist had a hit with 'Rolling in the Deep'?",
+      "options": ["Adele", "Rihanna", "Katy Perry", "Pink"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "Which instrument has pedals and white & black keys?",
+      "options": ["Harp", "Piano", "Accordion", "Organ"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
+      "question": "Which pop group sang 'Waterloo' in 1974?",
+      "options": ["ABBA", "The Beatles", "Queen", "Bee Gees"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "Who is the famous reggae musician from Jamaica?",
+      "options": ["Sean Paul", "Bob Marley", "Peter Tosh", "Shaggy"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
+      "question": "Which genre often features banjos and fiddles?",
+      "options": ["Rock", "Hip-Hop", "Country", "Classical"],
+      "correctAnswerIndex": 2
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
+      "question": "Which artist is known for the song 'Someone Like You'?",
+      "options": ["Adele", "Taylor Swift", "Beyoncé", "Lana Del Rey"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
+      "question": "What is the name of Taylor Swift’s first pop album?",
+      "options": ["Fearless", "Red", "1989", "Lover"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "What type of band has brass, woodwind, and percussion instruments?",
+      "options": ["Rock band", "Jazz band", "Orchestra", "Marching band"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "question": "Who is the lead singer of the rock band U2?",
+      "options": ["Bono", "Sting", "Mick Jagger", "Freddie Mercury"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "What do you call a person who conducts an orchestra?",
+      "options": ["Composer", "Conductor", "Singer", "Producer"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
+      "question": "Which 70s band is known for 'Staying Alive'?",
+      "options": ["Bee Gees", "Queen", "ABBA", "Eagles"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "Which instrument is played by blowing into it?",
+      "options": ["Guitar", "Violin", "Flute", "Piano"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "What is the musical term for 'fast'?",
+      "options": ["Lento", "Allegro", "Adagio", "Grave"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
+      "question": "Which American singer is known as 'The Boss'?",
+      "options": ["Bruce Springsteen", "Billy Joel", "Bob Dylan", "Elton John"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
+      "question": "What do you call a large group of singers?",
+      "options": ["Duet", "Quartet", "Choir", "Band"],
+      "correctAnswerIndex": 2
     },
     {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
+      "question": "Which rapper’s real name is Marshall Mathers?",
+      "options": ["Jay-Z", "Drake", "Eminem", "Kanye West"],
+      "correctAnswerIndex": 2
     },
     {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
+      "question": "Who sang 'Thriller'?",
+      "options": ["Prince", "Michael Jackson", "Elvis Presley", "Stevie Wonder"],
       "correctAnswerIndex": 1
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
+      "question": "What kind of music often has improvisation?",
+      "options": ["Jazz", "Pop", "Classical", "Rock"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
+      "question": "Which music award show is held every year in the USA?",
+      "options": ["Oscars", "Emmys", "Grammys", "Tonys"],
+      "correctAnswerIndex": 2
     },
     {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
+      "question": "What instrument has keys, pedals, and pipes?",
+      "options": ["Organ", "Piano", "Accordion", "Synthesizer"],
       "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Which singer is known for the hit 'Rolling in the Deep'? ",
-      "options": [
-        "Adele",
-        "Beyonce",
-        "Taylor Swift",
-        "Rihanna"
-      ],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who is known as the King of Pop? ",
-      "options": [
-        "Elvis Presley",
-        "Michael Jackson",
-        "Prince",
-        "Justin Bieber"
-      ],
-      "correctAnswerIndex": 1
     }
   ],
-  "Science and Technology": [
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "What planet is known as the Red Planet? ",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Venus"
-      ],
-      "correctAnswerIndex": 1
-    },
-    {
-      "question": "Who proposed the theory of relativity? ",
-      "options": [
-        "Newton",
-        "Einstein",
-        "Tesla",
-        "Curie"
-      ],
-      "correctAnswerIndex": 1
-    }
-  ],
+"Science and Technology": [
+  {
+    "question": "What planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What gas do humans breathe in to stay alive?",
+    "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Helium"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Which device is used to look at stars and planets?",
+    "options": ["Microscope", "Telescope", "Periscope", "Binoculars"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What is the boiling point of water in Celsius?",
+    "options": ["0°C", "50°C", "100°C", "200°C"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "Which part of the plant makes food using sunlight?",
+    "options": ["Roots", "Stem", "Leaves", "Flowers"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "What is H2O commonly known as?",
+    "options": ["Salt", "Water", "Oxygen", "Sugar"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What force keeps us on the ground?",
+    "options": ["Magnetism", "Friction", "Gravity", "Inertia"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "Who invented the light bulb?",
+    "options": ["Alexander Graham Bell", "Nikola Tesla", "Thomas Edison", "Isaac Newton"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "Which planet is closest to the Sun?",
+    "options": ["Earth", "Venus", "Mercury", "Mars"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "What is the center of an atom called?",
+    "options": ["Electron", "Nucleus", "Proton", "Neutron"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What natural satellite orbits the Earth?",
+    "options": ["Sun", "Venus", "Moon", "Mars"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "What part of the human body pumps blood?",
+    "options": ["Brain", "Heart", "Liver", "Lungs"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Which is the largest planet in our solar system?",
+    "options": ["Saturn", "Neptune", "Earth", "Jupiter"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "question": "What energy source comes from the Sun?",
+    "options": ["Nuclear", "Solar", "Hydroelectric", "Geothermal"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What do bees collect from flowers?",
+    "options": ["Nectar", "Leaves", "Seeds", "Bark"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What machine helps people fly in the sky?",
+    "options": ["Submarine", "Car", "Helicopter", "Bicycle"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "What is the freezing point of water in Celsius?",
+    "options": ["-10°C", "0°C", "10°C", "32°C"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Which gas do plants absorb from the air?",
+    "options": ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Which metal is liquid at room temperature?",
+    "options": ["Iron", "Gold", "Mercury", "Copper"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "What device is used to measure temperature?",
+    "options": ["Telescope", "Thermometer", "Barometer", "Speedometer"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What is the study of living things called?",
+    "options": ["Physics", "Biology", "Chemistry", "Geology"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What do you call animals that eat only plants?",
+    "options": ["Carnivores", "Herbivores", "Omnivores", "Insectivores"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Who developed the theory of relativity?",
+    "options": ["Newton", "Einstein", "Tesla", "Galileo"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What is the hardest natural substance on Earth?",
+    "options": ["Gold", "Iron", "Diamond", "Silver"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "Which planet has rings made of ice and rock?",
+    "options": ["Mars", "Saturn", "Venus", "Mercury"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What do you call a scientist who studies rocks?",
+    "options": ["Biologist", "Geologist", "Chemist", "Physicist"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Which organ helps you breathe?",
+    "options": ["Heart", "Liver", "Lungs", "Stomach"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "options": ["Liver", "Heart", "Skin", "Brain"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "What is the process by which plants make food?",
+    "options": ["Respiration", "Photosynthesis", "Digestion", "Evaporation"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Which part of the computer shows what you see?",
+    "options": ["Keyboard", "Mouse", "Monitor", "Speaker"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "What is used to store large amounts of digital data?",
+    "options": ["Monitor", "Printer", "Hard drive", "Mouse"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "Which invention is used to talk to someone far away?",
+    "options": ["Television", "Camera", "Telephone", "Projector"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "What do we call water falling from clouds?",
+    "options": ["Evaporation", "Condensation", "Rain", "Snow"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "Which animal can live both on land and in water?",
+    "options": ["Bird", "Amphibian", "Mammal", "Reptile"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What is the main gas found in the air we breathe?",
+    "options": ["Oxygen", "Nitrogen", "Carbon dioxide", "Helium"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Which famous scientist discovered gravity?",
+    "options": ["Einstein", "Newton", "Galileo", "Archimedes"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What is the human body's framework of bones called?",
+    "options": ["Muscles", "Skeleton", "Skin", "Veins"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Which part of a plant absorbs water and minerals?",
+    "options": ["Stem", "Leaves", "Roots", "Flower"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "What type of energy comes from moving air?",
+    "options": ["Wind energy", "Solar energy", "Nuclear energy", "Geothermal energy"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Which planet is known for its big red spot?",
+    "options": ["Jupiter", "Venus", "Mars", "Saturn"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "Which animal is known to be the fastest on land?",
+    "options": ["Lion", "Cheetah", "Horse", "Kangaroo"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What do you call a young dog?",
+    "options": ["Cub", "Kitten", "Puppy", "Calf"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "Which electronic device stores and plays music files?",
+    "options": ["Calculator", "MP3 player", "Printer", "Scanner"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What type of scientist studies living organisms?",
+    "options": ["Geologist", "Biologist", "Physicist", "Astronomer"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "What do caterpillars become after metamorphosis?",
+    "options": ["Beetles", "Butterflies", "Frogs", "Birds"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Which planet is famous for its beautiful rings?",
+    "options": ["Earth", "Jupiter", "Saturn", "Uranus"],
+    "correctAnswerIndex": 2
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "options": ["Go", "Au", "Ag", "Gl"],
+    "correctAnswerIndex": 1
+  },
+  {
+    "question": "Which tool do you use to find direction?",
+    "options": ["Compass", "Scale", "Thermometer", "Barometer"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What type of animal is a frog?",
+    "options": ["Reptile", "Bird", "Mammal", "Amphibian"],
+    "correctAnswerIndex": 3
+  },
+  {
+    "question": "What gas do plants give out during photosynthesis?",
+    "options": ["Oxygen", "Carbon dioxide", "Hydrogen", "Nitrogen"],
+    "correctAnswerIndex": 0
+  },
+  {
+    "question": "What is Earth’s only natural satellite?",
+    "options": ["Mars", "Sun", "Moon", "Venus"],
+    "correctAnswerIndex": 2
+  }
+],
   "Aptitude": [
     {
       "question": "If a train travels at 60 km/h, how long will it take to cover a distance of 300 km? ",

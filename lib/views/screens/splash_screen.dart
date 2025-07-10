@@ -1,8 +1,11 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:provider/provider.dart';
+import 'package:quizopia/models/user_model.dart';
+import 'package:quizopia/providers/user_provider.dart';
 import 'package:quizopia/views/screens/bottom_nav.dart';
 import 'package:quizopia/views/screens/signup.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 import '../../providers/quiz_provider.dart';
 
@@ -20,24 +23,35 @@ class _SplashScreenState extends State<SplashScreen> {
     _navigateAfterDelay();
   }
 
-  void _navigateAfterDelay() async {
+  Future<void> _navigateAfterDelay() async {
     await Future.delayed(const Duration(seconds: 3));
 
-    User? user = FirebaseAuth.instance.currentUser;
+    final user = FirebaseAuth.instance.currentUser;
 
-    Navigator.pushReplacement(
-      context,
-      MaterialPageRoute(
-        builder: (context) { // Use curly braces for a block body
-          // Call your provider method here
-          Provider.of<QuizProvider>(context, listen: false).loadAllQuizzes();
+    if (user == null) {
+      // Not logged in
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) => const SignupScreen()),
+      );
+    } else {
+      // Load user data
+      final doc = await FirebaseFirestore.instance.collection('users').doc(user.uid).get();
+      if (doc.exists) {
+        final userModel = UserModel.fromMap(doc.data()!);
+        Provider.of<UserProvider>(context, listen: false).setUser(userModel);
+      }
 
-          // Return the appropriate widget based on 'user'
-          return user == null ? const SignupScreen() : const BottomNavScreen();
-        },
-      ),
-    );
+      await Provider.of<QuizProvider>(context, listen: false).loadAllQuizzes();
+
+      // Navigate to main app
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(builder: (context) => const BottomNavScreen()),
+      );
+    }
   }
+
 
   @override
   Widget build(BuildContext context) {
