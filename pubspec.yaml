@@ -41,6 +41,9 @@ dependencies:
   firebase_auth:
   firebase_database:
   cloud_firestore:
+  flutter_dotenv:
+  image_picker:
+  http:
 
 dev_dependencies:
   flutter_test:
@@ -68,6 +71,7 @@ flutter:
   assets:
     - assets/images/
     - assets/quizopia_seed_data.json
+    - .env
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

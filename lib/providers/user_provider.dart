@@ -6,13 +6,8 @@ class UserProvider with ChangeNotifier {
 
   UserModel? get user => _user;
 
-  void setUser(UserModel userModel) {
-    _user = userModel;
-    notifyListeners();
-  }
-
-  void clearUser() {
-    _user = null;
+  void setUser(UserModel? user) {
+    _user = user;
     notifyListeners();
   }
 }

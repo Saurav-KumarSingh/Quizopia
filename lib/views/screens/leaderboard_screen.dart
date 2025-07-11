@@ -31,11 +31,12 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
 
     for (var doc in snapshot.docs) {
       final data = doc.data();
+
       fetched.add({
         "uid": doc.id,
         "name": data["name"] ?? "Anonymous",
         "points": data["totalScore"]?.toString() ?? "0",
-        "image": "assets/profile_default.png", // you can customize later
+        "profileImage": data["profileImage"] ?? "",
         "isCurrentUser": doc.id == currentUserId,
       });
     }
@@ -78,7 +79,7 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
                   "#${index + 1}",
                   user["name"],
                   user["points"],
-                  user["image"],
+                  user["profileImage"],
                   isFirst: index == 0,
                 );
               }),
@@ -98,6 +99,7 @@ class _LeaderboardScreenState extends State<LeaderboardScreen> {
                   user["name"],
                   user["points"],
                   isCurrentUser: user["isCurrentUser"] ?? false,
+                  imagePath: user["profileImage"],
                 );
               },
             ),

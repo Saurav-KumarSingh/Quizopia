@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:quizopia/providers/user_provider.dart';
 import 'package:quizopia/models/user_model.dart';
+import 'package:quizopia/providers/user_provider.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:quizopia/views/screens/login.dart';
+
+import 'editprofile_screen.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -38,6 +42,31 @@ class ProfileScreen extends StatelessWidget {
     );
   }
 
+  String _calculateCompletionRate(UserModel user) {
+    if (user.totalAttempted == 0) return "0%";
+    return "${((user.correctAnswers + user.incorrectAnswers) / user.totalAttempted * 100).round()}%";
+  }
+
+  String _calculateAccuracy(UserModel user) {
+    if (user.totalAttempted == 0) return "0%";
+    return "${(user.correctAnswers / user.totalAttempted * 100).round()}%";
+  }
+
+  void _logout(BuildContext context) async {
+    await FirebaseAuth.instance.signOut();
+
+    // Clear user from provider
+    Provider.of<UserProvider>(context, listen: false).setUser(null);
+
+    // Navigate to login screen
+    Navigator.pushAndRemoveUntil(
+      context,
+      MaterialPageRoute(builder: (_) => const LoginScreen()),
+          (route) => false,
+    );
+  }
+
+
   @override
   Widget build(BuildContext context) {
     final userModel = Provider.of<UserProvider>(context).user;
@@ -67,10 +96,15 @@ class ProfileScreen extends StatelessWidget {
                 children: [
                   CircleAvatar(
                     radius: 45,
-                    backgroundImage: userModel.profileImage.isNotEmpty
+                    backgroundColor: Colors.white,
+                    backgroundImage: (userModel.profileImage.isNotEmpty)
                         ? NetworkImage(userModel.profileImage)
-                        : const AssetImage("assets/you.png") as ImageProvider,
+                        : null,
+                    child: (userModel.profileImage.isEmpty)
+                        ? const Icon(Icons.person, size: 45, color: Colors.deepPurple)
+                        : null,
                   ),
+
                   const SizedBox(height: 10),
                   Text(
                     userModel.name,
@@ -88,7 +122,7 @@ class ProfileScreen extends StatelessWidget {
               ),
             ),
           ),
-          const SizedBox(height: 40),
+          // Stats grid
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 15),
             child: GridView.count(
@@ -107,19 +141,53 @@ class ProfileScreen extends StatelessWidget {
               ],
             ),
           ),
-          const SizedBox(height: 24),
+          SizedBox(height: 50,),
+
+          Container(
+            width: double.infinity, // make it expand to screen width
+            alignment: Alignment.centerLeft,
+            padding: const EdgeInsets.only(left: 20, bottom: 30),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                TextButton.icon(
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (_) => const EditProfileScreen()),
+                    );
+                  },
+                  icon: const Icon(Icons.edit, color: Colors.deepPurple),
+                  label: const Text(
+                    "Edit Profile",
+                    style: TextStyle(fontSize: 16, color: Colors.deepPurple),
+                  ),
+                  style: TextButton.styleFrom(
+                    alignment: Alignment.centerLeft,
+                    padding: EdgeInsets.zero, // Removes default padding
+                  ),
+                ),
+                const SizedBox(height: 5),
+                TextButton.icon(
+                  onPressed: () => _logout(context),
+                  icon: const Icon(Icons.logout, color: Colors.red),
+                  label: const Text(
+                    "Logout",
+                    style: TextStyle(fontSize: 16, color: Colors.red),
+                  ),
+                  style: TextButton.styleFrom(
+                    alignment: Alignment.centerLeft,
+                    padding: EdgeInsets.zero,
+                  ),
+                ),
+              ],
+            ),
+          ),
+
+
         ],
       ),
     );
-  }
-
-  String _calculateCompletionRate(UserModel user) {
-    if (user.totalAttempted == 0) return "0%";
-    return "${((user.correctAnswers + user.incorrectAnswers) / user.totalAttempted * 100).round()}%";
-  }
-
-  String _calculateAccuracy(UserModel user) {
-    if (user.totalAttempted == 0) return "0%";
-    return "${(user.correctAnswers / user.totalAttempted * 100).round()}%";
   }
 }

@@ -125,7 +125,16 @@ class UiHelper {
 
 
 
-  static Widget custom_podiumUser(String rank, String name, String points, String imagePath, {bool isFirst = false}) {
+  static Widget custom_podiumUser(
+      String rank,
+      String name,
+      String points,
+      String? imagePath, {
+        bool isFirst = false,
+      }) {
+    final hasValidImage =
+        imagePath != null && imagePath.trim().isNotEmpty && imagePath != "null";
+
     return Column(
       children: [
         Container(
@@ -138,27 +147,40 @@ class UiHelper {
           child: Column(
             children: [
               CircleAvatar(
-                backgroundImage: AssetImage(imagePath),
                 radius: 34,
+                backgroundColor: Colors.grey[200],
+                backgroundImage: hasValidImage ? NetworkImage(imagePath!) : null,
+                child: !hasValidImage
+                    ? const Icon(Icons.person, size: 34, color: Colors.deepPurple)
+                    : null,
               ),
               const SizedBox(height: 8),
               Text(name, style: const TextStyle(fontWeight: FontWeight.bold)),
-              Text("$points points", style: const TextStyle(fontSize: 12, color: Colors.black54)),
+              Text("$points points",
+                  style: const TextStyle(fontSize: 12, color: Colors.black54)),
             ],
           ),
         ),
         const SizedBox(height: 4),
-        Text(rank, style: TextStyle(fontWeight: FontWeight.bold, color: Colors.deepPurple)),
+        Text(rank,
+            style: const TextStyle(
+                fontWeight: FontWeight.bold, color: Colors.deepPurple)),
       ],
     );
   }
+
+
 
   static Widget customrankedUser(
       String rank,
       String name,
       String points, {
         bool isCurrentUser = false,
+        String? imagePath,
       }) {
+    final hasValidImage =
+        imagePath != null && imagePath.trim().isNotEmpty && imagePath != "null";
+
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 6, horizontal: 4),
       padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
@@ -188,16 +210,15 @@ class UiHelper {
             ),
           ),
           const SizedBox(width: 14),
-
-          // Avatar
-          const CircleAvatar(
+          CircleAvatar(
             radius: 22,
-            backgroundColor: Colors.deepPurple,
-            child: Icon(Icons.person, color: Colors.white, size: 20),
+            backgroundColor: Colors.grey.shade200,
+            backgroundImage: hasValidImage ? NetworkImage(imagePath!) : null,
+            child: !hasValidImage
+                ? const Icon(Icons.person, color: Colors.deepPurple, size: 20)
+                : null,
           ),
           const SizedBox(width: 14),
-
-          // Name
           Expanded(
             child: Text(
               name,
@@ -209,8 +230,6 @@ class UiHelper {
               ),
             ),
           ),
-
-          // Points
           Row(
             children: [
               const Icon(Icons.star_rounded, color: Colors.amber, size: 20),
@@ -228,6 +247,9 @@ class UiHelper {
       ),
     );
   }
+
+
+
 
   static void showSnackbar(BuildContext context, String message) {
     ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(message)));
