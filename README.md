@@ -30,23 +30,16 @@ Want to try Quizopia without setting up the code?
 
 <p align="center">
 
-  <img src="screenshots/home.jpg" alt="Home Scrren" width="45%" height="250px" style="margin: 20px; object-fit: cover;" />
-
-  <img src="screenshots/categoty.jpg" alt="Category Screen" width="45%" height="250px" style="margin: 20px; object-fit: cover;" />
-
-
-
-  <img src="screenshots/leaderboard.jpg" alt="Leaderboard Screen" width="45%" height="250px" style="margin: 20px; object-fit: cover;" />
-
-  <img src="screenshots/question.jpg" alt="Question Screen" width="45%" height="250px" style="margin: 20px; object-fit: cover;" />
-
-
-
-  <img src="screenshots/result.jpg" alt="Result Screen" width="45%" height="250px" style="margin: 20px; object-fit: cover;" />
-
-  <img src="screenshots/profile.jpg" alt="ProfileScreen" width="45%" height="250px" style="margin: 20px; object-fit: cover;" />
+  <img src="screenshots/home.jpg" alt="Home Screen" width="200px" style="margin: 10px;" />
+  <img src="screenshots/category.jpg" alt="Category Screen" width="200px" style="margin: 10px;" />
+  <img src="screenshots/leaderboard.jpg" alt="Leaderboard Screen" width="200px" style="margin: 10px;" />
+  <br />
+  <img src="screenshots/question.jpg" alt="Question Screen" width="200px" style="margin: 10px;" />
+  <img src="screenshots/result.jpg" alt="Result Screen" width="200px" style="margin: 10px;" />
+  <img src="screenshots/profile.jpg" alt="Profile Screen" width="200px" style="margin: 10px;" />
 
 </p>
+
 ---
 
 ## 🚀 Getting Started
