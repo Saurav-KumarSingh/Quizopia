@@ -5,6 +5,7 @@ import 'package:quizopia/providers/quiz_provider.dart';
 import 'package:quizopia/providers/user_provider.dart';
 import 'package:quizopia/views/screens/question_screen.dart';
 import 'package:quizopia/views/widgets/uihelper.dart';
+import 'package:quizopia/services/quiz_of_week_service.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -14,6 +15,15 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  final QuizOfWeekService _quizOfWeekService = QuizOfWeekService();
+  late Future<QuizModel?> _quizOfWeekFuture;
+
+  @override
+  void initState() {
+    super.initState();
+    _quizOfWeekFuture = _quizOfWeekService.fetchQuizOfTheWeek();
+  }
+
   void navigateToQuiz(BuildContext context, QuizModel quiz) {
     Navigator.push(
       context,
@@ -59,47 +69,64 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               const SizedBox(height: 10),
 
-              if (quizzes.isNotEmpty)
-                Container(
-                  padding: const EdgeInsets.all(16),
-                  decoration: BoxDecoration(
-                    color: const Color(0xFFEAE6FB),
-                    borderRadius: BorderRadius.circular(16),
-                  ),
-                  child: Row(
-                    children: [
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                              quizzes[0].title,
-                              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-                            ),
-                            const SizedBox(height: 5),
-                            const Text("1688 players worldwide", style: TextStyle(color: Colors.black54)),
-                            const SizedBox(height: 10),
-                            ElevatedButton(
-                              onPressed: () => navigateToQuiz(context, quizzes[0]),
-                              style: ElevatedButton.styleFrom(
-                                backgroundColor: Colors.blue[400],
-                                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
-                              ),
-                              child: const Text("Play now!", style: TextStyle(color: Colors.white)),
-                            ),
-                          ],
-                        ),
+              FutureBuilder<QuizModel?>(
+                future: _quizOfWeekFuture,
+                builder: (context, snapshot) {
+                  if (snapshot.connectionState == ConnectionState.waiting) {
+                    return const Center(child: CircularProgressIndicator());
+                  } else if (snapshot.hasError) {
+                    return Text('Error loading Quiz of the Week: ${snapshot.error}');
+                  } else if (snapshot.hasData && snapshot.data != null) {
+                    final quizOfWeek = snapshot.data!;
+                    return Container(
+                      padding: const EdgeInsets.all(16),
+                      decoration: BoxDecoration(
+                        color: const Color(0xFFEAE6FB),
+                        borderRadius: BorderRadius.circular(16),
                       ),
-                      const SizedBox(width: 10),
-                      Image.asset(
-                        "assets/images/bulb.png",
-                        height: 100,
-                        width: 100,
-                        errorBuilder: (_, __, ___) => const Icon(Icons.image),
+                      child: Row(
+                        children: [
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  quizOfWeek.title, // Now directly accessible
+                                  style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                                ),
+                                const SizedBox(height: 5),
+                                Text(
+                                  quizOfWeek.description, // Now directly accessible
+                                  style: const TextStyle(color: Colors.black54),
+                                ),
+                                const SizedBox(height: 10),
+                                ElevatedButton(
+                                  onPressed: () => navigateToQuiz(context, quizOfWeek),
+                                  style: ElevatedButton.styleFrom(
+                                    backgroundColor: Colors.blue[400],
+                                    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(8)),
+                                  ),
+                                  child: const Text("Play now!", style: TextStyle(color: Colors.white)),
+                                ),
+                              ],
+                            ),
+                          ),
+                          const SizedBox(width: 10),
+                          // Consider using quizOfWeek.imageUrl here if you want a dynamic image
+                          Image.asset(
+                            "assets/images/bulb.png", // Or use NetworkImage(quizOfWeek.imageUrl)
+                            height: 100,
+                            width: 100,
+                            errorBuilder: (_, __, ___) => const Icon(Icons.image),
+                          ),
+                        ],
                       ),
-                    ],
-                  ),
-                ),
+                    );
+                  } else {
+                    return const Text('No Quiz of the Week available.');
+                  }
+                },
+              ),
 
               const SizedBox(height: 25),
               const Text("Categories", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
@@ -114,7 +141,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: quizzes.take(6).map((quiz) {
                   return UiHelper.categoryCard(
                     quiz.title,
-                    "assets/images/${quiz.id}.png",
+                    "assets/images/${quiz.id}.png", // Still using quizProvider quizzes for categories
                         () => navigateToQuiz(context, quiz),
                   );
                 }).toList(),

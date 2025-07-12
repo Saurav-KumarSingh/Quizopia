@@ -57,12 +57,15 @@ class _QuestionScreenState extends State<QuestionScreen> {
   }
 
   Future<void> submitQuiz() async {
-    if (isSubmitted || isLoading) return;
+    if (isSubmitted) return; // Prevent multiple submissions if already submitted
 
-    setState(() => isLoading = true);
+    setState(() => isLoading = true); // Set loading to true immediately
 
     final user = FirebaseAuth.instance.currentUser;
-    if (user == null) return;
+    if (user == null) {
+      setState(() => isLoading = false); // Stop loading if user is null
+      return;
+    }
 
     int correct = 0;
     int incorrect = 0;
@@ -93,22 +96,28 @@ class _QuestionScreenState extends State<QuestionScreen> {
         });
       });
 
-      isSubmitted = true;
+      isSubmitted = true; // Mark as submitted only after successful transaction
 
-      _showResultDialog(correct, incorrect);
+      // Show the result dialog. Await its dismissal before setting isLoading to false.
+      await _showResultDialog(correct, incorrect);
+
     } catch (e) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("Error: $e")),
+        SnackBar(content: Text("Error submitting quiz: $e")), // More specific error message
       );
+    } finally {
+      // Ensure isLoading is set to false regardless of success or failure
+      // This will happen AFTER the dialog is dismissed if successful
+      setState(() => isLoading = false);
     }
-
-    setState(() => isLoading = false);
   }
 
-  void _showResultDialog(int correct, int incorrect) {
+  // In your _QuestionScreenState class
+  Future _showResultDialog(int correct, int incorrect) { // Keep this as void, or change to Future<void>
     final score = correct * 10;
 
-    showDialog(
+    // IMPORTANT: Add 'return' here
+    return showDialog( // Added 'return'
       context: context,
       barrierDismissible: false,
       builder: (BuildContext dialogContext) {
@@ -201,95 +210,108 @@ class _QuestionScreenState extends State<QuestionScreen> {
     final currentQ = selectedQuestions[currentQuestionIndex];
 
     return Scaffold(
-      backgroundColor: const Color(0xFF1E0E62),
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(20),
-          child: Column(
-            children: [
-              Text(
-                "Question ${currentQuestionIndex + 1} of ${selectedQuestions.length}",
-                style: const TextStyle(color: Colors.white70),
-              ),
-              const SizedBox(height: 12),
-              Text(
-                currentQ.question,
-                textAlign: TextAlign.center,
-                style: const TextStyle(
-                  fontSize: 22,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,
-                ),
-              ),
-              const SizedBox(height: 30),
-
-              Column(
-                children: List.generate(currentQ.options.length, (index) {
-                  final isSelected = selectedOption == index;
-                  return GestureDetector(
-                    onTap: () => selectOption(index),
-                    child: Container(
-                      margin: const EdgeInsets.symmetric(vertical: 10),
-                      padding: const EdgeInsets.all(14),
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(12),
-                        border: Border.all(
-                          color: isSelected ? Colors.deepPurple : Colors.transparent,
-                          width: 2,
-                        ),
-                      ),
-                      width: double.infinity,
-                      child: Text(
-                        currentQ.options[index],
-                        textAlign: TextAlign.center,
-                        style: const TextStyle(
-                          fontSize: 16,
-                          fontWeight: FontWeight.w600,
-                        ),
-                      ),
-                    ),
-                  );
-                }),
-              ),
-
-              const Spacer(),
-
-              if (showNext)
-                SizedBox(
-                  width: double.infinity,
-                  child: ElevatedButton(
-                    onPressed: isLoading
-                        ? null
-                        : currentQuestionIndex == selectedQuestions.length - 1
-                        ? submitQuiz
-                        : goToNextQuestion,
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.white,
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-                    ),
-                    child: Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 14),
-                      child: isLoading
-                          ? const CircularProgressIndicator(
-                        color: Color(0xFF1E0E62),
-                        strokeWidth: 2,
-                      )
-                          : Text(
-                        currentQuestionIndex == selectedQuestions.length - 1
-                            ? "Submit"
-                            : "Next",
-                        style: const TextStyle(
-                          color: Color(0xFF1E0E62),
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
+      body: Stack(
+        children: [
+          // Background Image
+          Positioned.fill(
+            child: Image.asset(
+              'assets/images/question.jpg', // **Replace with your image path**
+              fit: BoxFit.cover, // Ensures the image covers the entire screen
+            ),
+          ),
+          // Your existing content
+          SafeArea(
+            child: Padding(
+              padding: const EdgeInsets.all(20),
+              child: Column(
+                children: [
+                  Text(
+                    "Question ${currentQuestionIndex + 1} of ${selectedQuestions.length}",
+                    style: const TextStyle(color: Colors.white70),
+                  ),
+                  const SizedBox(height:60),
+                  Text(
+                    currentQ.question,
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      fontSize: 22,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
                     ),
                   ),
-                ),
-            ],
+                  const SizedBox(height: 50),
+
+                  Column(
+                    children: List.generate(currentQ.options.length, (index) {
+                      final isSelected = selectedOption == index;
+                      return GestureDetector(
+                        onTap: isLoading ? null : () => selectOption(index), // Disable tapping options while loading
+                        child: Container(
+                          margin: const EdgeInsets.symmetric(vertical: 10),
+                          padding: const EdgeInsets.all(14),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(12),
+                            border: Border.all(
+                              color: isSelected ? Colors.deepPurple : Colors.transparent,
+                              width: 2,
+                            ),
+                          ),
+                          width: double.infinity,
+                          child: Text(
+                            currentQ.options[index],
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                        ),
+                      );
+                    }),
+                  ),
+
+                  const Spacer(),
+
+                  // The "Next" or "Submit" button
+                  // It will only show if showNext is true, and will disable if isLoading is true.
+                  if (showNext)
+                    SizedBox(
+                      width: double.infinity,
+                      child: ElevatedButton(
+                        onPressed: isLoading
+                            ? null // Disable button if loading
+                            : currentQuestionIndex == selectedQuestions.length - 1
+                            ? submitQuiz
+                            : goToNextQuestion,
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.white,
+                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                        ),
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 14),
+                          child: isLoading
+                              ? const CircularProgressIndicator(
+                            color: Color(0xFF1E0E62),
+                            strokeWidth: 2,
+                          )
+                              : Text(
+                            currentQuestionIndex == selectedQuestions.length - 1
+                                ? "Submit"
+                                : "Next",
+                            style: const TextStyle(
+                              color: Color(0xFF1E0E62),
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                ],
+              ),
+            ),
           ),
-        ),
+        ],
       ),
     );
   }

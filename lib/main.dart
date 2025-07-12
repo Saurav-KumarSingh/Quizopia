@@ -7,11 +7,13 @@ import 'package:quizopia/providers/quiz_provider.dart';
 import 'package:quizopia/views/screens/splash_screen.dart';
 
 import 'providers/user_provider.dart';
+import 'services/quiz_of_week_seeder.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   await dotenv.load(fileName: ".env");
+  await seedQuizOfTheWeek();
   // await seedQuizData();
   runApp(
     MultiProvider(

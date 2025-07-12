@@ -71,6 +71,7 @@ flutter:
   assets:
     - assets/images/
     - assets/quizopia_seed_data.json
+    - assets/quizofweek.json
     - .env
   #   - images/a_dot_ham.jpeg
 
