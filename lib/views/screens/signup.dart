@@ -169,29 +169,29 @@ class _SignupScreenState extends State<SignupScreen> {
                             ),
                             const SizedBox(height: 34),
 
-                            Row(
-                              children: [
-                                const Expanded(child: Divider(thickness: 1)),
-                                Padding(
-                                  padding: const EdgeInsets.symmetric(horizontal: 10),
-                                  child: Text(
-                                    "or sign up with",
-                                    style: TextStyle(color: Colors.grey[600]),
-                                  ),
-                                ),
-                                const Expanded(child: Divider(thickness: 1)),
-                              ],
-                            ),
-                            const SizedBox(height: 30),
-
-                            Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                              children: [
-                                UiHelper.socialButton(FontAwesomeIcons.facebookF, Colors.blue),
-                                UiHelper.socialButton(FontAwesomeIcons.google, Colors.red),
-                                UiHelper.socialButton(FontAwesomeIcons.xTwitter, Colors.black),
-                              ],
-                            ),
+                            // Row(
+                            //   children: [
+                            //     const Expanded(child: Divider(thickness: 1)),
+                            //     Padding(
+                            //       padding: const EdgeInsets.symmetric(horizontal: 10),
+                            //       child: Text(
+                            //         "or sign up with",
+                            //         style: TextStyle(color: Colors.grey[600]),
+                            //       ),
+                            //     ),
+                            //     const Expanded(child: Divider(thickness: 1)),
+                            //   ],
+                            // ),
+                            // const SizedBox(height: 30),
+                            //
+                            // Row(
+                            //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            //   children: [
+                            //     UiHelper.socialButton(FontAwesomeIcons.facebookF, Colors.blue),
+                            //     UiHelper.socialButton(FontAwesomeIcons.google, Colors.red),
+                            //     UiHelper.socialButton(FontAwesomeIcons.xTwitter, Colors.black),
+                            //   ],
+                            // ),
                           ],
                         ),
                       ),

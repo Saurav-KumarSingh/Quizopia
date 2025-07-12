@@ -1,3 +1,4 @@
+// plugins block MUST be at the very top (after optional buildscript/pluginManagement)
 plugins {
     id "com.android.application"
     // START: FlutterFire Configuration
@@ -8,11 +9,22 @@ plugins {
     id "dev.flutter.flutter-gradle-plugin"
 }
 
+// THIS IS THE CORRECT AND STANDARD PLACE FOR THE PROPERTIES LOADING BLOCK.
+// It comes AFTER the 'plugins' block, but BEFORE the 'android' block.
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file("key.properties")
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+} else {
+    // It's good practice to add a warning or error if the key.properties is missing,
+    // especially for release builds.
+    throw new GradleException("key.properties not found! Ensure it's in the 'android/' directory.")
+}
+
 android {
     namespace = "com.example.quizopia"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = "27.0.12077973"
-
+    ndkVersion = "27.0.12077973" // Ensure this NDK version is installed if not already
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -25,7 +37,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.example.quizopia"
+        applicationId = "com.example.quizopia" // IMPORTANT: Change this to a unique ID for your app on Play Store
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = 27
@@ -34,10 +46,32 @@ android {
         versionName = flutter.versionName
     }
 
+    // Define your signing configurations here
+    signingConfigs {
+        release {
+            // Reference the properties loaded from key.properties
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            // Use file() to correctly interpret the path from key.properties
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
+            // Apply the 'release' signing configuration defined above
+            signingConfig = signingConfigs.release
+
+            // Recommended for release builds:
+            // Enables code shrinking (R8) to reduce app size
+            minifyEnabled true
+            // Removes unused resources to further reduce app size
+            shrinkResources true
+            // You can add other release-specific configurations here if needed
+        }
+        // The debug build type usually uses the default debug signing config
+        debug {
             signingConfig = signingConfigs.debug
         }
     }

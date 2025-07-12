@@ -46,3 +46,8 @@ app.*.map.json
 
 # Environment variables
 *.env
+
+# Android signing keys
+android/key.properties
+# Explicitly ignore the keystore file itself if it's in the project
+/android/app/quizopia_key.jks

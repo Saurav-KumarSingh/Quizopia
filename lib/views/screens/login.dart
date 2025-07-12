@@ -65,7 +65,7 @@ class _LoginScreenState extends State<LoginScreen> {
               "Sign in",
               style: TextStyle(fontSize: 55, fontWeight: FontWeight.bold, color: Colors.white),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 50),
             Expanded(
               child: Container(
                 width: double.infinity,
@@ -106,25 +106,25 @@ class _LoginScreenState extends State<LoginScreen> {
                               ),
                             ),
                             const SizedBox(height: 34),
-                            Row(
-                              children: [
-                                const Expanded(child: Divider(thickness: 1)),
-                                Padding(
-                                  padding: const EdgeInsets.symmetric(horizontal: 10),
-                                  child: Text("or login with", style: TextStyle(color: Colors.grey[600])),
-                                ),
-                                const Expanded(child: Divider(thickness: 1)),
-                              ],
-                            ),
-                            const SizedBox(height: 30),
-                            Row(
-                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                              children: [
-                                UiHelper.socialButton(FontAwesomeIcons.facebookF, Colors.blue),
-                                UiHelper.socialButton(FontAwesomeIcons.google, Colors.red),
-                                UiHelper.socialButton(FontAwesomeIcons.xTwitter, Colors.black),
-                              ],
-                            ),
+                            // Row(
+                            //   children: [
+                            //     const Expanded(child: Divider(thickness: 1)),
+                            //     Padding(
+                            //       padding: const EdgeInsets.symmetric(horizontal: 10),
+                            //       child: Text("or login with", style: TextStyle(color: Colors.grey[600])),
+                            //     ),
+                            //     const Expanded(child: Divider(thickness: 1)),
+                            //   ],
+                            // ),
+                            // const SizedBox(height: 30),
+                            // Row(
+                            //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            //   children: [
+                            //     UiHelper.socialButton(FontAwesomeIcons.facebookF, Colors.blue),
+                            //     UiHelper.socialButton(FontAwesomeIcons.google, Colors.red),
+                            //     UiHelper.socialButton(FontAwesomeIcons.xTwitter, Colors.black),
+                            //   ],
+                            // ),
                           ],
                         ),
                       ),
