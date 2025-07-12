@@ -58,6 +58,7 @@ cd quizopia
 flutter pub get
 ```
 ###3. Firebase & Cloudinary Setup
+<br />
 ###4. Configure Environment Variables
 
 ```
