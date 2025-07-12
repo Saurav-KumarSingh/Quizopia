@@ -7,7 +7,7 @@ Quizopia is a modern, interactive mobile quiz application built with **Flutter**
 
 Want to try Quizopia without setting up the code?
 
-👉 **[Download Latest APK](screenshots/app-release.apk)**
+👉 **[Download Latest APK](https://github.com/Saurav-KumarSingh/quizopia/raw/main/screenshots/app-release.apk)**
 
 > *(Click the link above to download and install the APK on your Android device)*
 
